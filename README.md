@@ -37,8 +37,8 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
                      [Varied Low-level Vision Tasks In Video Through Diffusion Models](#2.3)</summary>
 	                  * [Video Frame Prediction and Interpolation](#2.3.1)
 	            	  * [Super Resolution Module For Text-to-Video Generation](#2.3.2)</details>
-* [Latest Works Recommended](#Latest_Works_Recommended)
-* [Related Surveys Recommended](#Related_Surveys_Recommended)
+* [Latest Works Recommended](#LatestWorksRecommended)
+* [Related Surveys Recommended](#RelatedSurveysRecommended)
 * [Reference](#Reference)
 
 ## <a id="Papers">Papers</a>
@@ -207,13 +207,13 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 | 2023/05 | **PYoCo** | **Preserve Your Own Correlation: A Noise Prior for Video Diffusion Models**<br /><sup><sub>*Songwei Ge, Seungjun Nah, Guilin Liu, Tyler Poon, Andrew Tao, Bryan Catanzaro, David Jacobs, Jia-Bin Huang, Ming-Yu Liu, Yogesh Balaji*</sup></sub> | ICCV<br />2023  | [Paper](https://arxiv.org/abs/2305.10474)/[Demo](https://research.nvidia.com/labs/dir/pyoco/) |
 | 2023/04 |     -     | **Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models**<br /><sup><sub>*Andreas Blattmann, Robin Rombach, Huan Ling, Tim Dockhorn, Seung Wook Kim, Sanja Fidler, Karsten Kreis*</sup></sub> | CVPR<br />2023  | [Paper](https://arxiv.org/abs/2304.08818)/[Demo](https://research.nvidia.com/labs/toronto-ai/VideoLDM/) |
 
-## <a id="Latest_Works_Recommended">Latest Works Recommended</a>
+## <a id="LatestWorksRecommended">Latest Works Recommended</a>
 
 **Reti-Diff: Illumination Degradation Image Restoration with Retinex-based Latent Diffusion Model**<br />*Chunming He, Chengyu Fang, Yulun Zhang, Kai Li, Longxiang Tang, Chenyu You, Fengyang Xiao, Zhenhua Guo, Xiu Li*<br />
 arXiv 2023. [[Paper](https://arxiv.org/abs/2311.11638)] [[Code](https://github.com/ChunmingHe/Reti-Diff)]<br />
 Nov. 2023<br />
 
-## <a id="Related_Surveys_Recommended">Related Surveys Recommended</a>
+## <a id="RelatedSurveysRecommended">Related Surveys Recommended</a>
 
 **Diffusion Models, Image Super-Resolution And Everything: A Survey**<br />
 arXiv 2024. [[Paper](https://arxiv.org/abs/2401.00736)] <br />
