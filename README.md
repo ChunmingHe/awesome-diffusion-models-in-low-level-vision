@@ -207,7 +207,7 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 | 2023/05 | **PYoCo** | **Preserve Your Own Correlation: A Noise Prior for Video Diffusion Models**<br /><sup><sub>*Songwei Ge, Seungjun Nah, Guilin Liu, Tyler Poon, Andrew Tao, Bryan Catanzaro, David Jacobs, Jia-Bin Huang, Ming-Yu Liu, Yogesh Balaji*</sup></sub> | ICCV<br />2023  | [Paper](https://arxiv.org/abs/2305.10474)/[Demo](https://research.nvidia.com/labs/dir/pyoco/) |
 | 2023/04 |     -     | **Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models**<br /><sup><sub>*Andreas Blattmann, Robin Rombach, Huan Ling, Tim Dockhorn, Seung Wook Kim, Sanja Fidler, Karsten Kreis*</sup></sub> | CVPR<br />2023  | [Paper](https://arxiv.org/abs/2304.08818)/[Demo](https://research.nvidia.com/labs/toronto-ai/VideoLDM/) |
 
-## <a id="Latest">Latest Works Recommended</a>
+## <a id="2.3.2">Latest Works Recommended</a>
 
 **Reti-Diff: Illumination Degradation Image Restoration with Retinex-based Latent Diffusion Model**<br />*Chunming He, Chengyu Fang, Yulun Zhang, Kai Li, Longxiang Tang, Chenyu You, Fengyang Xiao, Zhenhua Guo, Xiu Li*<br />
 arXiv 2023. [[Paper](https://arxiv.org/abs/2311.11638)] [[Code](https://github.com/ChunmingHe/Reti-Diff)]<br />
