@@ -1,14 +1,16 @@
-# Awesome Diffusion Models In Low-level Vision
 
-A curated list of awesome **Diffusion Models(DMs)** in low-level vision. 
+# <p align=center>`Awesome Diffusion Models In Low-level Vision` [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ChunmingHe/awesome-diffusion-models-in-low-level-vision) </p>
 
-**<Last updated at 2024/01/18>**
 
----
 
-## Contributing
 
-Please feel free to offer your suggestions in the Issues and send us pull requests to add links.
+<p align=center>🔥A curated list of awesome <b>Diffusion Models(DMs)</b> in low-level vision.🔥</p>
+
+<p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
+
+<p align=center><b>[ Last updated at 2024/01/19 ]</b></p>
+
+
 
 ## Contents
 
@@ -49,7 +51,7 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 
 ##### <a id="1.1.1">1.1.1 Zero-shot DM-based IR</a>
 
-|  when   |        what        | title                                                        |      pub.       |                             link                             |
+|  Release   |        Method        | Title                                                        |      Pub.       |                             Link                             |
 | :-----: | :----------------: | ------------------------------------------------------------ | :-------------: | :----------------------------------------------------------: |
 | 2023/05 |    **DiffPIR**     | **Denoising diffusion models for plug-and-play image restoration**<br /><sup><sub>*Yuanzhi Zhu, Kai Zhang, Jingyun Liang, Jiezhang Cao, Bihan Wen, Radu Timofte, Luc Van Gool*</sup></sub> | CVPR<br />2023  | [Paper](https://arxiv.org/abs/2305.08995)/[Code](https://github.com/yuanzhi-zhu/DiffPIR) |
 | 2023/05 |    **RED-Diff**    | **A Variational Perspective on Solving Inverse Problems with Diffusion Models**<br /><sup><sub>*Morteza Mardani, Jiaming Song, Jan Kautz, Arash Vahdat*</sup></sub> | arXiv<br />2023 |          [Paper](https://arxiv.org/abs/2305.04391)/          |
@@ -68,7 +70,7 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 
 ##### <a id="1.1.2">1.1.2 Supervised DM-based IR</a>
 
-|  when   |     what     | title                                                        |      pub.       |                             link                             |
+|  Release   |     Method     | Title                                                        |      Pub.       |                             Link                             |
 | :-----: | :----------: | ------------------------------------------------------------ | :-------------: | :----------------------------------------------------------: |
 | 2023/05 |   **InDI**   | **Inversion by Direct Iteration: An Alternative to Denoising Diffusion for Image Restoration**<br/><sup><sub>*Mauricio Delbracio, Peyman Milanfar*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2303.11435)/[Code](https://github.com/fpramunno/InDI-implementation?tab=readme-ov-file) |
 | 2023/04 | **Refusion** | **Refusion: Enabling Large-Size Realistic Image Restoration with Latent-Space Diffusion Models**<br /><sup><sub>*Ziwei Luo, Fredrik K. Gustafsson, Zheng Zhao, Jens Sjölund, Thomas B. Schön*</sup></sub> | CVPRW<br />2023 | [Paper](https://arxiv.org/abs/2304.08291)/[Code](https://github.com/Algolzw/image-restoration-sde?tab=readme-ov-file) |
@@ -78,7 +80,7 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 #### <a id="1.2">1.2 Task-specific Image Restoration</a>
 ##### <a id="1.2.1">1.2.1 Super Resolution (SR)</a>
 
-|  when   |    what     | title                                                        |           pub.           |                             link                             |
+|  Release   |    Method     | Title                                                        |           Pub.           |                             Link                             |
 | :-----: | :---------: | ------------------------------------------------------------ | :----------------------: | :----------------------------------------------------------: |
 | 2023/03 | **ResDiff** | **ResDiff: Combining CNN and Diffusion Model for Image Super-Resolution**<br /><sup><sub>*Shuyao Shang, Zhengyang Shan, Guangxing Liu, Jinglin Zhang*</sup></sub> |     arXiv<br />2023      | [Paper](https://arxiv.org/abs/2303.08714)/[Code](https://github.com/WalkingCat/ResDiff) |
 | 2023/03 |   **IDM**   | **Implicit Diffusion Models for Continuous Super-Resolution**<br /><sup><sub>*Sicheng Gao, Xuhui Liu, Bohan Zeng, Sheng Xu, Yanjing Li, Xiaoyan Luo, Jianzhuang Liu, Xiantong Zhen, Baochang Zhang*</sup></sub> |      CVPR<br />2023      | [Paper](https://arxiv.org/abs/2303.16491)/[Code](https://github.com/IP-SuperResolution/IDM/blob/main/README.md) |
@@ -90,14 +92,14 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 
 ##### <a id="1.2.2">1.2.2 Inpainting</a>
 
-|  when   |    what     | title                                                        |       pub.        |                             link                             |
+|  Release   |    Method     | Title                                                        |       Pub.        |                             Link                             |
 | :-----: | :---------: | ------------------------------------------------------------ | :---------------: | :----------------------------------------------------------: |
 | 2022/05 | **Palette** | **Palette: Image-to-image diffusion models**<br/><sup><sub>*C. Saharia, W. Chan, H. Chang, C. Lee, J. Ho, T. Salimans, D. Fleet, and M. Norouzi.</sup></sub> | SIGGRAPH<br/>2022 | [Paper](https://arxiv.org/abs/2111.05826)/[Code](https://github.com/Janspiry/Palette-Image-to-Image-Diffusion-Models) |
 | 2022/01 | **RePaint** | **Repaint: Inpainting using denoising diffusion probabilistic models**<br/><sup><sub>*A. Lugmayr, M. Danelljan, A. Romero, F. Yu, R. Timofte, and L. Van Gool.*</sup></sub> |  CVPR<br />2022   | [Paper](https://arxiv.org/abs/2201.09865)/[Code](https://github.com/Yidan-Zhang/RePaint-Inpainting-using-Denoising-Diffusion-Probabilistic-Models) |
 
 ##### <a id="1.2.3">1.2.3 Deblur</a>
 
-|  when   |    what     | title                                                        |      pub.       |                             link                             |
+|  Release   |    Method     | Title                                                        |      Pub.       |                             Link                             |
 | :-----: | :---------: | ------------------------------------------------------------ | :-------------: | :----------------------------------------------------------: |
 | 2023/05 | **HI-Diff** | **Hierarchical Integration Diffusion Model for Realistic Image Deblurring**<br /><sup><sub>*Zheng Chen, Yulun Zhang, Ding Liu, Bin Xia, Jinjin Gu, Linghe Kong, Xin Yuan*</sup></sub> | arXiv<br />2023 |          [Paper](https://arxiv.org/abs/2212.01789)/          |
 | 2022/12 |      -      | **Multiscale Structure Guided Diffusion for Image Deblurring**<br /><sup><sub>*M. Ren, M. Delbracio, H. Talebi, G. Gerig, and P. Milanfar.*</sup></sub> | ICCV<br />2023  |          [Paper](https://arxiv.org/abs/2212.01789)/          |
@@ -105,13 +107,13 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 
 ##### <a id="1.2.4">1.2.4 Dehaze</a>
 
-|  when   |      what       | title                                                        |      pub.       |                             link                             |
+|  Release   |      Method       | Title                                                        |      Pub.       |                             Link                             |
 | :-----: | :-------------: | :----------------------------------------------------------- | :-------------: | :----------------------------------------------------------: |
 | 2022/11 | **WeatherDiff** | **Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models**<br /><sup><sub>*Ozan Özdenizci, Robert Legenstein*</sup></sub> | TPAMI<br />2023 | [Paper](https://arxiv.org/abs/2207.14626)/[Code](https://github.com/IGITUGraz/WeatherDiffusion) |
 
 ##### <a id="1.2.5">1.2.5 Low-light Enhancement</a>
 
-|  when   |     what      | title                                                        |      pub.       |                             link                             |
+|  Release   |     Method      | Title                                                        |      Pub.       |                             Link                             |
 | :-----: | :-----------: | ------------------------------------------------------------ | :-------------: | :----------------------------------------------------------: |
 | 2023/11 | **Reti-Diff** | **Reti-Diff: Illumination Degradation Image Restoration with Retinex-based Latent Diffusion Model**<br /><sup><sub>*Chunming He, Chengyu Fang, Yulun Zhang, Kai Li, Longxiang Tang, Chenyu You, Fengyang Xiao, Zhenhua Guo, Xiu Li*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2311.11638)/[Code](https://github.com/ChunmingHe/Reti-Diff) |
 | 2023/05 |  **PyDiff**   | **Pyramid Diffusion Models For Low-light Image Enhancement**<br /><sup><sub>*Dewei Zhou, Zongxin Yang, Yi Yang*</sup></sub> | IJCAI<br />2023 | [Paper](https://arxiv.org/abs/2305.10028)/[Code](https://github.com/limuloo/PyDIff) |
@@ -123,7 +125,7 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 
 ##### <a id="2.1.1">2.1.1 MRI</a>
 
-|  when   |     what      | title                                                        |      pub.       |                             link                             |
+|  Release   |     Method      | Title                                                        |      Pub.       |                             Link                             |
 | :-----: | :-----------: | ------------------------------------------------------------ | :-------------: | :----------------------------------------------------------: |
 | 2022/07 |  **AdaDiff**  | **Adaptive Diffusion Priors for Accelerated MRI Reconstruction**<br /><sup><sub>*Alper Güngör, Salman UH Dar, Şaban Öztürk, Yilmaz Korkmaz, Gokberk Elmas, Muzaffer Özbey, Tolga Çukur*</sup></sub> | MedIA<br />2023 | [Paper](https://arxiv.org/abs/2207.05876)/[Code](https://github.com/icon-lab/AdaDiff) |
 | 2021/10 | **Score-MRI** | **Score-based diffusion models for accelerated MRI**<br /><sup><sub>*Hyungjin Chung, Jong Chul Ye*</sup></sub> | MedIA<br />2022 | [Paper](https://arxiv.org/abs/2110.05243)/[Code](https://github.com/HJ-harry/score-MRI) |
@@ -131,13 +133,13 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 
 ##### <a id="2.1.2">2.1.2 X-ray-based</a>
 
-|  when   |   what    | title                                                        |      pub.      |                             link                             |
+|  Release   |   Method    | Title                                                        |      Pub.      |                             Link                             |
 | :-----: | :-------: | ------------------------------------------------------------ | :------------: | :----------------------------------------------------------: |
 | 2022/11 | **DOLCE** | **DOLCE: A Model-Based Probabilistic Diffusion Framework for Limited-Angle CT Reconstruction**<br /><sup><sub>*Jiaming Liu, Rushil Anirudh, Jayaraman J. Thiagarajan, Stewart He, K. Aditya Mohan, Ulugbek S. Kamilov, Hyojin Kim*</sup></sub> | ICCV<br />2023 | [Paper](https://arxiv.org/abs/2211.12340)/[Code](https://github.com/wustl-cig/DOLCE) |
 
 ##### <a id="2.1.3">2.1.3 Multi-modal</a>
 
-|  when   |     what     | title                                                        |      pub.       |                    link                    |
+|  Release   |     Method     | Title                                                        |      Pub.       |                    Link                    |
 | :-----: | :----------: | ------------------------------------------------------------ | :-------------: | :----------------------------------------: |
 | 2023/04 |   **FGDM**   | **Zero-shot Medical Image Translation via Frequency-Guided Diffusion Models**<br /><sup><sub>*Yunxiang Li, Hua-Chieh Shao, Xiao Liang, Liyuan Chen, Ruiqi Li, Steve Jiang, Jing Wang, You Zhang*</sup></sub> |  TMI<br />2023  | [Paper](https://arxiv.org/abs/2304.02742)/ |
 | 2022/09 |      -       | **Conversion Between CT and MRI Images Using Diffusion and Score-Matching Models**<br /><sup><sub>*Qing Lyu, Ge Wang*</sup></sub> | arXiv<br />2022 | [Paper](https://arxiv.org/abs/2209.12104)/ |
@@ -145,7 +147,7 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 
 ##### <a id="2.1.4">2.1.4 Other Modalities</a>
 
-|  when   |       what       | title                                                        |                   pub.                    |                             link                             |
+|  Release   |       Method       | Title                                                        |                   Pub.                    |                             Link                             |
 | :-----: | :--------------: | ------------------------------------------------------------ | :---------------------------------------: | :----------------------------------------------------------: |
 | 2022/09 |   **PET-DDM**    | **PET image denoising based on denoising diffusion probabilistic models**<br /><sup><sub>*Kuang Gong, Keith A. Johnson, Georges El Fakhri, Quanzheng Li, Tinsu Pan*</sup></sub> | Eur. J. Nucl. Med. Mol. Imaging<br />2023 |          [Paper](https://arxiv.org/abs/2209.06167)/          |
 | 2022/01 | **DenoOCT-DDPM** | **Unsupervised Denoising of Retinal OCT with Diffusion Probabilistic Model**<br /><sup><sub>*Dewei Hu, Yuankai K. Tao, Ipek Oguz*</sup></sub> |              SPIE<br />2022               | [Paper](https://arxiv.org/abs/2201.11760)/[Code](https://github.com/deweihu/oct_ddpm) |
@@ -154,7 +156,7 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 
 ##### <a id="2.2.1">2.2.1 Visible-light Remote Sensing Image</a>
 
-|  when   |     what     | title                                                        |           pub.           |                             link                             |
+|  Release   |     Method     | Title                                                        |           Pub.           |                             Link                             |
 | :-----: | :----------: | ------------------------------------------------------------ | :----------------------: | :----------------------------------------------------------: |
 | 2023/10 | **EDiffSR**  | **EDiffSR: An Efficient Diffusion Probabilistic Model for Remote Sensing Image Super-Resolution**<br /><sup><sub>*Yi Xiao, Qiangqiang Yuan, Kui Jiang, Jiang He, Xianyu Jin, Liangpei Zhang*</sup></sub> |      TGRS<br />2024      | [Paper](https://arxiv.org/abs/2310.19288)/[Code](https://github.com/XY-boy/EDiffSR) |
 | 2023/09 |  **RSDiff**  | **RSDiff: Remote Sensing Image Generation from Text Using Diffusion Model**<br /><sup><sub>*Ahmad Sebaq, Mohamed ElHelw*</sup></sub> |     arXiv<br />2023      |          [Paper](https://arxiv.org/abs/2309.02455)/          |
@@ -163,7 +165,7 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 
 ##### <a id="2.2.2">2.2.2 HSI</a>
 
-|  when   |     what     | title                                                        |      pub.       |                             link                             |
+|  Release   |     Method     | Title                                                        |      Pub.       |                             Link                             |
 | :-----: | :----------: | ------------------------------------------------------------ | :-------------: | :----------------------------------------------------------: |
 | 2023/07 | **DDPM-Fus** | **Hyperspectral and Multispectral Image Fusion Using the Conditional Denoising Diffusion Probabilistic Model**<br /><sup><sub>*Shuaikai Shi, Lijun Zhang, Jie Chen*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2307.03423)/[Code](https://github.com/shuaikaishi/DDPMFus) |
 | 2023/07 |      -       | **A Noise-Model-Free Hyperspectral Image Denoising Method Based on Diffusion Model**<br /><sup><sub>*Deng, Keli and Jiang, Zhongshun and Qian, Qipeng and Qiu, Yi and Qian, Yuntao*</sup></sub> | IGASS<br />2023 | [Paper](https://ieeexplore.ieee.org/abstract/document/10281546)/ |
@@ -173,7 +175,7 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 
 ##### <a id="2.2.3">2.2.3 SAR</a>
 
-|  when   | what | title                                                        |      pub.       |                             link                             |
+|  Release   | Method | Title                                                        |      Pub.       |                             Link                             |
 | :-----: | :--: | ------------------------------------------------------------ | :-------------: | :----------------------------------------------------------: |
 | 2023/07 |  -   | **Unsupervised SAR Despeckling Based on Diffusion Model**<br /><sup><sub>*Xiao, Siyao and Huang, Libing and Zhang, Shunsheng*</sup></sub> | IGASS<br />2023 | [Paper](https://ieeexplore.ieee.org/abstract/document/10282914)/ |
 | 2023/08 |  -   | **Diffusion Models for Interferometric Satellite Aperture Radar**<br /><sup><sub>*Alexandre Tuel, Thomas Kerdreux, Claudia Hulbert, Bertrand Rouet-Leduc*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2308.16847)/[Code](https://github.com/thomaskerdreux/PDM_SAR_InSAR_generation) |
@@ -181,7 +183,7 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 
 ##### <a id="2.2.4">2.2.4 Multi-modal</a>
 
-|  when   |    what     | title                                                        |           pub.           |                        link                         |
+|  Release   |    Method     | Title                                                        |           Pub.           |                        Link                         |
 | :-----: | :---------: | ------------------------------------------------------------ | :----------------------: | :-------------------------------------------------: |
 | 2023/07 |      -      | **Improved Flood Insights: Diffusion-Based SAR to EO Image Translation**<br /><sup><sub>*Minseok Seo, Youngtack Oh, Doyi Kim, Dongmin Kang, Yeji Choi*</sup></sub> |     arXiv<br />2023      |     [Paper](https://arxiv.org/abs/2307.07123)/      |
 | 2023/04 |      -      | **Cloud Removal in Remote Sensing Using Sequential-Based Diffusion Models**<br /><sup><sub>*Zhao, Xiaohu and Jia, Kebin*</sup></sub> | Remote Sensing<br />2023 | [Paper](https://www.mdpi.com/2072-4292/15/11/2861)/ |
@@ -192,7 +194,7 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 
 ##### <a id="2.3.1">2.3.1 Video Frame Prediction and Interpolation</a>
 
-|  when   |    what    | title                                                        |       pub.        |                             link                             |
+|  Release   |    Method    | Title                                                        |       Pub.        |                             Link                             |
 | :-----: | :--------: | ------------------------------------------------------------ | :---------------: | :----------------------------------------------------------: |
 | 2023/03 | **LDMVFI** | **LDMVFI: Video Frame Interpolation with Latent Diffusion Models**<br /><sup><sub>*Duolikun Danier, Fan Zhang, David Bull*</sup></sub> |  arXiv<br />2023  | [Paper](https://arxiv.org/abs/2303.09508)/[Code](https://github.com/danier97/LDMVFI) |
 | 2022/06 | **RaMViD** | **Diffusion Models for Video Prediction and Infilling**<br /><sup><sub>*Tobias Höppe, Arash Mehrjou, Stefan Bauer, Didrik Nielsen, Andrea Dittadi*</sup></sub> |  TMLR<br />2022   |          [Paper](https://arxiv.org/abs/2206.07696)/          |
@@ -201,7 +203,7 @@ Please feel free to offer your suggestions in the Issues and send us pull reques
 
 ##### <a id="2.3.2">2.3.2 Super Resolution Module For Text-to-Video Generation</a>
 
-|  when   |   what    | title                                                        |      pub.       |                             link                             |
+|  Release   |   Method    | Title                                                        |      Pub.       |                             Link                             |
 | :-----: | :-------: | ------------------------------------------------------------ | :-------------: | :----------------------------------------------------------: |
 | 2023/09 | **LAVIE** | **LAVIE: High-Quality Video Generation with Cascaded Latent Diffusion Models**<br /><sup><sub>*Yaohui Wang, Xinyuan Chen, Xin Ma, Shangchen Zhou, Ziqi Huang, Yi Wang, Ceyuan Yang, Yinan He, Jiashuo Yu, Peiqing Yang, Yuwei Guo, Tianxing Wu, Chenyang Si, Yuming Jiang, Cunjian Chen, Chen Change Loy, Bo Dai, Dahua Lin, Yu Qiao, Ziwei Liu*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2309.15103)/[Code](https://vchitect.github.io/LaVie-project/) |
 | 2023/05 | **PYoCo** | **Preserve Your Own Correlation: A Noise Prior for Video Diffusion Models**<br /><sup><sub>*Songwei Ge, Seungjun Nah, Guilin Liu, Tyler Poon, Andrew Tao, Bryan Catanzaro, David Jacobs, Jia-Bin Huang, Ming-Yu Liu, Yogesh Balaji*</sup></sub> | ICCV<br />2023  | [Paper](https://arxiv.org/abs/2305.10474)/[Demo](https://research.nvidia.com/labs/dir/pyoco/) |
