@@ -8,7 +8,7 @@
 
 <p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
 
-<p align=center><b>[ Last updated at 2024/01/20 ]</b></p>
+<p align=center><b>[ Last updated at 2024/01/27 ]</b></p>
 
 
 
@@ -32,13 +32,13 @@
 	            * [Multi-modal](#2.1.3)
 	            * [Other Modalities](#2.1.4)</details><details> <summary>
                    [Diffusion Models In Remote Sensing For Low-level Vision Tasks](#2.2) </summary>
-	               	* [Visible-light Remote Sensing Image](#2.2.1)
-	               	* [Hyperspectral Imaging (HSI)](#2.2.2)
-	               	* [Synthetic Aperture Radar (SAR)](#2.2.3)
-	               	* [Multi-modal](#2.2.4)</details><details><summary>
+	                   	* [Visible-light Remote Sensing Image](#2.2.1)
+	                   	* [Hyperspectral Imaging (HSI)](#2.2.2)
+	                   	* [Synthetic Aperture Radar (SAR)](#2.2.3)
+	                   	* [Multi-modal](#2.2.4)</details><details><summary>
                      [Varied Low-level Vision Tasks In Video Through Diffusion Models](#2.3)</summary>
 	                  * [Video Frame Prediction and Interpolation](#2.3.1)
-	            	  * [Super Resolution Module For Text-to-Video Generation](#2.3.2)</details>
+	                  	  * [Super Resolution Module For Text-to-Video Generation](#2.3.2)</details>
 * [Latest Works Recommended](#3.)
 * [Related Surveys Recommended](#4.)
 * [Reference](#Reference)
@@ -115,8 +115,21 @@
 
 |  Release   |     Method      | Title                                                        |      Pub.       |                             Link                             |
 | :-----: | :-----------: | ------------------------------------------------------------ | :-------------: | :----------------------------------------------------------: |
+| 2024/01 | **CFWD** | **Low-light Image Enhancement via CLIP-Fourier Guided Wavelet Diffusion**<br /><sup><sub>*Minglong Xue, Jinhong He, Yanyi He, Zhipu Liu, Wenhai Wang, Mingliang Zhou*</sup></sub> | arXiv<br />2024 | [Paper](https://arxiv.org/abs/2401.03788)/[Code](https://github.com/He-Jinhong/CFWD) |
+| 2023/12 | **L<sup>2</sup>DM** | **L<sup>2</sup>DM: A Diffusion Model for Low-Light Image Enhancement**<br /><sup><sub>*Lv, Xingguo and Dong, Xingbo and Jin, Zhe and Zhang, Hui and Song, Siyi and Li, Xuejun*</sup></sub> | PRCV<br />2023 | [Paper](https://link.springer.com/chapter/10.1007/978-981-99-8552-4_11)/[Code](https://github.com/01cv/L2DM) |
 | 2023/11 | **Reti-Diff** | **Reti-Diff: Illumination Degradation Image Restoration with Retinex-based Latent Diffusion Model**<br /><sup><sub>*Chunming He, Chengyu Fang, Yulun Zhang, Kai Li, Longxiang Tang, Chenyu You, Fengyang Xiao, Zhenhua Guo, Xiu Li*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2311.11638)/[Code](https://github.com/ChunmingHe/Reti-Diff) |
+| 2023/10 | **GASD** | **Global Structure-Aware Diffusion Process for Low-Light Image Enhancement**<br /><sup><sub>*Jinhui Hou, Zhiyu Zhu, Junhui Hou, Hui Liu, Huanqiang Zeng, Hui Yuan*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2310.17577)/[Code](https://github.com/jinnh/GSAD) |
+| 2023/10 | **LLDE** | **LLDE: Enhancing Low-Light Images with Diffusion Model**<br /><sup><sub>*Xin Peng Oo, Chee Seng Chan*</sup></sub> | ICIP<br />2023 | [Paper](https://ieeexplore.ieee.org/document/10222446)/[Code](https://github.com/OoiXinPeng/LLDE) |
+| 2023/09 | - | **Bootstrap Diffusion Model Curve Estimation for High Resolution Low-Light Image Enhancement**<br /><sup><sub>*Jiancheng Huang, Yifan Liu, Shifeng Chen*</sup></sub> | PRICAI<br /> 2023 | [Paper](https://arxiv.org/abs/2309.14709)/ |
+| 2023/08 | **ExposureDiffusion** | **ExposureDiffusion: Learning to Expose for Low-light Image Enhancement**<br /><sup><sub>*Yufei Wang, Yi Yu, Wenhan Yang, Lanqing Guo, Lap-Pui Chau, Alex C. Kot, Bihan Wen*</sup></sub> | ICCV<br />2023 | [Paper](https://arxiv.org/pdf/2307.07710.pdf)/[Code](https://github.com/IP-Enhancement/ExposureDiffusion/tree/main) |
+| 2023/08 | **Diff-Retinex** | **Diff-Retinex: Rethinking Low-light Image Enhancement with A Generative Diffusion Model**<br /><sup><sub>*Xunpeng Yi, Han Xu, Hao Zhang, Linfeng Tang, Jiayi Ma*</sup></sub> | ICCV<br />2023 | [Paper](https://ieeexplore.ieee.org/document/10377645)/ |
+| 2023/08 | **CLE Diffusion** | **CLE Diffusion: Controllable Light Enhancement Diffusion Model**<br /><sup><sub>*Yuyang Yin, Dejia Xu, Chuangchuang Tan, Ping Liu, Yao Zhao, Yunchao Wei*</sup></sub> | MM<br />23 | [Paper](https://arxiv.org/abs/2308.06725)/[Code](https://github.com/YuyangYin/CLEDiffusion) |
+| 2023/07 | **LLDiffusion** | **LLDiffusion: Learning Degradation Representations in Diffusion Models for Low-Light Image Enhancement**<br /><sup><sub>*Tao Wang, Kaihao Zhang, Ziqian Shao, Wenhan Luo, Bjorn Stenger, Tae-Kyun Kim, Wei Liu, Hongdong Li*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2307.14659)/[Code](https://github.com/TaoWangzj/LLDiffusion) |
+| 2023/07 | **DiffLIE** | **DiffLIE: Low-Light Image Enhancment based on Deep Diffusion Model**<br /><sup><sub>*Guanyu Wu; Cheng. Jin*</sup></sub> | ISCTIS<br />2023 | [Paper](https://ieeexplore.ieee.org/abstract/document/10213153)/ |
+| 2023/06 | - | **Diffusion Model Based Low-Light Image Enhancement for Space Satellite**<br /><sup><sub>*Yiman Zhu, Lu Wang, Jingyi Yuan, Yu Guo*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2306.14227)/ |
 | 2023/05 |  **PyDiff**   | **Pyramid Diffusion Models For Low-light Image Enhancement**<br /><sup><sub>*Dewei Zhou, Zongxin Yang, Yi Yang*</sup></sub> | IJCAI<br />2023 | [Paper](https://arxiv.org/abs/2305.10028)/[Code](https://github.com/limuloo/PyDIff) |
+| 2023/03 | **LPDM** | **Denoising Diffusion Post-Processing for Low-Light Image Enhancement**<br /><sup><sub>*Savvas Panagiotou, Anna S. Bosman*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2303.09627)/[Code](https://github.com/savvaki/LPDM) |
+| 2023/03 | **DiD** | **Diffusion in the Dark: A Diffusion Model for Low-Light Text Recognition**<br /><sup><sub>*Cindy M. Nguyen, Eric R. Chan, Alexander W. Bergman, Gordon Wetzstein*</sup></sub> | WACV<br />2024 | [Paper](https://arxiv.org/abs/2303.04291)/[Code](https://github.com/ccnguyen/diffusion-in-the-dark/tree/master) |
 | 2023/01 |   **WCDM**    | **Low-Light Image Enhancement with Wavelet-based Diffusion Models**<br /><sup><sub>*Hai Jiang, Ao Luo, Songchen Han, Haoqiang Fan, Shuaicheng Liu*</sup></sub> |  TOG<br />2023  | [Paper](https://arxiv.org/abs/2306.00306)/[Code](https://github.com/JianghaiSCU/Diffusion-Low-Light) |
 
 ### <a id="2.">2. Extended Diffusion Models In Low-level Vision</a>
