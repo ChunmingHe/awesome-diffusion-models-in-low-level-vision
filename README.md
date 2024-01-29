@@ -32,13 +32,13 @@
 	            * [Multi-modal](#2.1.3)
 	            * [Other Modalities](#2.1.4)</details><details> <summary>
                    [Diffusion Models In Remote Sensing For Low-level Vision Tasks](#2.2) </summary>
-	                   	* [Visible-light Remote Sensing Image](#2.2.1)
-	                   	* [Hyperspectral Imaging (HSI)](#2.2.2)
-	                   	* [Synthetic Aperture Radar (SAR)](#2.2.3)
-	                   	* [Multi-modal](#2.2.4)</details><details><summary>
+                   * [Visible-light Remote Sensing Image](#2.2.1)
+                   * [Hyperspectral Imaging (HSI)](#2.2.2)
+                   * [Synthetic Aperture Radar (SAR)](#2.2.3)
+                   * [Multi-modal](#2.2.4)</details><details><summary>
                      [Varied Low-level Vision Tasks In Video Through Diffusion Models](#2.3)</summary>
-	                  * [Video Frame Prediction and Interpolation](#2.3.1)
-	                  	  * [Super Resolution Module For Text-to-Video Generation](#2.3.2)</details>
+                     * [Video Frame Prediction and Interpolation](#2.3.1)
+                     * [Super Resolution Module For Text-to-Video Generation](#2.3.2)</details>
 * [Latest Works Recommended](#3.)
 * [Related Surveys Recommended](#4.)
 * [Reference](#Reference)
