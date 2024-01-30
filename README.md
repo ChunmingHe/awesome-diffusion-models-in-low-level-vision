@@ -135,7 +135,7 @@ Nov. 2023<br />
 | 2023/05 |  **PyDiff**   | **Pyramid Diffusion Models For Low-light Image Enhancement**<br /><sup><sub>*Dewei Zhou, Zongxin Yang, Yi Yang*</sup></sub> | IJCAI<br />2023 | [Paper](https://arxiv.org/abs/2305.10028)/[Code](https://github.com/limuloo/PyDIff) |
 | 2023/03 | **LPDM** | **Denoising Diffusion Post-Processing for Low-Light Image Enhancement**<br /><sup><sub>*Savvas Panagiotou, Anna S. Bosman*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2303.09627)/[Code](https://github.com/savvaki/LPDM) |
 | 2023/03 | **DiD** | **Diffusion in the Dark: A Diffusion Model for Low-Light Text Recognition**<br /><sup><sub>*Cindy M. Nguyen, Eric R. Chan, Alexander W. Bergman, Gordon Wetzstein*</sup></sub> | WACV<br />2024 | [Paper](https://arxiv.org/abs/2303.04291)/[Code](https://github.com/ccnguyen/diffusion-in-the-dark/tree/master) |
-| 2023/01 |   **WCDM**    | **Low-Light Image Enhancement with Wavelet-based Diffusion Models**<br /><sup><sub>*Hai Jiang, Ao Luo, Songchen Han, Haoqiang Fan, Shuaicheng Liu*</sup></sub> |  TOG<br />2023  | [Paper](https://arxiv.org/abs/2306.00306)/[Code](https://github.com/JianghaiSCU/Diffusion-Low-Light) |
+| 2023/01 |   **DiffLL**    | **Low-Light Image Enhancement with Wavelet-based Diffusion Models**<br /><sup><sub>*Hai Jiang, Ao Luo, Songchen Han, Haoqiang Fan, Shuaicheng Liu*</sup></sub> |  TOG<br />2023  | [Paper](https://arxiv.org/abs/2306.00306)/[Code](https://github.com/JianghaiSCU/Diffusion-Low-Light) |
 
 ### <a id="2.">2. Extended Diffusion Models In Low-level Vision</a>
 
