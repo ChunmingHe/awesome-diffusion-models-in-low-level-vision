@@ -8,7 +8,7 @@
 
 <p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
 
-<p align=center><b>[ Last updated at 2024/01/27 ]</b></p>
+<p align=center><b>[ Last updated at 2024/03/13 ]</b></p>
 
 
 
@@ -24,7 +24,8 @@
            * [Inpainting](#1.2.2)
            * [Deblur](#1.2.3)
            * [Dehaze](#1.2.4)
-           * [Low-light Enhancement](#1.2.5)</details>
+           * [Low-light Enhancement](#1.2.5)
+           * [Image Fusion](#1.2.6)</details>
 	        * [Extended Diffusion Models In Low-level Vision](#2.)<details><summary>
 		     [Diffusion Models In Low-level Medical Image Analysis](#2.1)</summary>
 	            * [MRI](#2.1.1)
@@ -136,6 +137,13 @@ Nov. 2023<br />
 | 2023/03 | **LPDM** | **Denoising Diffusion Post-Processing for Low-Light Image Enhancement**<br /><sup><sub>*Savvas Panagiotou, Anna S. Bosman*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2303.09627)/[Code](https://github.com/savvaki/LPDM) |
 | 2023/03 | **DiD** | **Diffusion in the Dark: A Diffusion Model for Low-Light Text Recognition**<br /><sup><sub>*Cindy M. Nguyen, Eric R. Chan, Alexander W. Bergman, Gordon Wetzstein*</sup></sub> | WACV<br />2024 | [Paper](https://arxiv.org/abs/2303.04291)/[Code](https://github.com/ccnguyen/diffusion-in-the-dark/tree/master) |
 | 2023/01 |   **DiffLL**    | **Low-Light Image Enhancement with Wavelet-based Diffusion Models**<br /><sup><sub>*Hai Jiang, Ao Luo, Songchen Han, Haoqiang Fan, Shuaicheng Liu*</sup></sub> |  TOG<br />2023  | [Paper](https://arxiv.org/abs/2306.00306)/[Code](https://github.com/JianghaiSCU/Diffusion-Low-Light) |
+##### <a id="1.2.6">1.2.6 Image Fusion</a>
+
+| Release |     Method     | Title                                                        |      Pub.      |                             Link                             |
+| :-----: | :------------: | :----------------------------------------------------------- | :------------: | :----------------------------------------------------------: |
+| 2023/06 | **FusionDiff** | **FusionDiff: Multi-focus image fusion using denoising diffusion probabilistic models**<br /><sup><sub>*Mining Li, Ronghao Pei, Tianyou Zheng, Yang Zhang, Weiwei Fu*</sup></sub> | ESWA<br />2024 | [Paper](https://www.sciencedirect.com/science/article/pii/S0957417423021668)/[Code](https://github.com/lmn-ning/ImageFusion) |
+| 2023/03 |    **DDFM**    | **DDFM: Denoising Diffusion Model for Multi-Modality Image Fusion**<br /><sup><sub>*Zixiang Zhao, Haowen Bai, Yuanzhi Zhu, Jiangshe Zhang, Shuang Xu, Yulun Zhang, Kai Zhang, Deyu Meng, Radu Timofte, Luc Van Gool*</sup></sub> | ICCV<br />2023 | [Paper](https://arxiv.org/abs/2303.06840)/[Code](https://github. com/Zhaozixiang1228/MMIF-DDFM) |
+| 2023/01 | **Dif-Fusion** | **Dif-Fusion: Towards High Color Fidelity in Infrared and Visible Image Fusion with Diffusion Models**<br /><sup><sub>*Jun Yue, Leyuan Fang, Shaobo Xia, Yue Deng, Jiayi Ma*</sup></sub> | TIP<br />2023  | [Paper](https://arxiv.org/abs/2301.08072)/[Code](https://github.com/GeoVectorMatrix/Dif-Fusion) |
 
 ### <a id="2.">2. Extended Diffusion Models In Low-level Vision</a>
 
