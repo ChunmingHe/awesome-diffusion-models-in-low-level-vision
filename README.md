@@ -8,7 +8,7 @@
 
 <p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
 
-<p align=center><b>[ Last updated at 2024/04/17 ]</b></p>
+<p align=center><b>[ Last updated at 2024/04/18 ]</b></p>
 
 
 
@@ -94,6 +94,7 @@ Nov. 2023<br />
 | 2023/07 | **ResShift** | **ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shifting**<br /><sup><sub>*Zongsheng Yue, Jianyi Wang, Chen Change Loy*</sup></sub> | NIPS<br />2023 | [Paper](https://arxiv.org/abs/2307.12348)/[Code](https://github.com/zsyOAOA/ResShift) |
 | 2023/07 | **PartDiff** | **PartDiff: Image Super-resolution with Partial Diffusion Models**<br /><sup><sub>*Axi Niu, Pham Xuan Trung, Kang Zhang, Jinqiu Sun, Yu Zhu, In So Kweon, Yanning Zhang*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2307.11926)/ |
 | 2023/07 | **ACDMSR** | **ACDMSR: Accelerated Conditional Diffusion Models for Single Image Super-Resolution**<br /><sup><sub>*Axi Niu, Pham Xuan Trung, Kang Zhang, Jinqiu Sun, Yu Zhu, In So Kweon, Yanning Zhang*</sup></sub> | IEEE Trans. Broadcast.<br />2024 | [Paper](https://arxiv.org/abs/2307.00781)/ |
+| 2023/03 | **DR2** | **DR2: Diffusion-Based Robust Degradation Remover for Blind Face Restoration**<br /><sup><sub>*Zhixin Wang, Xiaoyun Zhang, Ziying Zhang, Huangjie Zheng, Mingyuan Zhou, Ya Zhang, Yanfeng Wang*</sup></sub> | CVPR<br />2023 | [Paper](https://arxiv.org/abs/2303.06885)/[Code](https://github.com/Kaldwin0106/DR2_Drgradation_Remover) |
 | 2023/03 | **ResDiff** | **ResDiff: Combining CNN and Diffusion Model for Image Super-Resolution**<br /><sup><sub>*Shuyao Shang, Zhengyang Shan, Guangxing Liu, Jinglin Zhang*</sup></sub> |   AAAI<br />2024  | [Paper](https://arxiv.org/abs/2303.08714)/[Code](https://github.com/WalkingCat/ResDiff) |
 | 2023/03 |   **IDM**   | **Implicit Diffusion Models for Continuous Super-Resolution**<br /><sup><sub>*Sicheng Gao, Xuhui Liu, Bohan Zeng, Sheng Xu, Yanjing Li, Xiaoyan Luo, Jianzhuang Liu, Xiantong Zhen, Baochang Zhang*</sup></sub> |      CVPR<br />2023      | [Paper](https://arxiv.org/abs/2303.16491)/[Code](https://github.com/IP-SuperResolution/IDM/blob/main/README.md) |
 | 2023/02 | - | **Denoising Diffusion Probabilistic Models for Robust Image Super-Resolution in the Wild**<br /><sup><sub>*Hshmat Sahak, Daniel Watson, Chitwan Saharia, David Fleet*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2302.07864)/ |
