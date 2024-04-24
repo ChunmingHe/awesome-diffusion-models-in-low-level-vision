@@ -8,7 +8,7 @@
 
 <p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
 
-<p align=center><b>[ Last updated at 2024/04/18 ]</b></p>
+<p align=center><b>[ Last updated at 2024/04/24 ]</b></p>
 
 
 
@@ -78,6 +78,7 @@ Nov. 2023<br />
 
 |  Release   |     Method     | Title                                                        |      Pub.       |                             Link                             |
 | :-----: | :----------: | ------------------------------------------------------------ | :-------------: | :----------------------------------------------------------: |
+| 2024/03 | **DiffUIR** | **Selective Hourglass Mapping for Universal Image Restoration Based on Diffusion Model**<br /><sup><sub>*Dian Zheng, Xiao-Ming Wu, Shuzhou Yang, Jian Zhang, Jian-Fang Hu, Wei-Shi Zheng*</sup></sub> | CVPR<br />2024 | [Paper](https://arxiv.org/abs/2403.11157)/[Code](https://github.com/iSEE-Laboratory/DiffUIR) |
 | 2024/03 | - | **Efficient Diffusion Model for Image Restoration by Residual Shifting**<br /><sup><sub>*Yuanzhi Zhu, Kai Zhang, Jingyun Liang, Jiezhang Cao, Bihan Wen, Radu Timofte, Luc Van Gool*</sup></sub> | arXiv<br />2024 | [Paper](https://arxiv.org/abs/2403.07319)/[Code](https://github.com/zsyOAOA/ResShift) |
 | 2023/05 |   **InDI**   | **Inversion by Direct Iteration: An Alternative to Denoising Diffusion for Image Restoration**<br/><sup><sub>*Mauricio Delbracio, Peyman Milanfar*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2303.11435)/[Code](https://github.com/fpramunno/InDI-implementation?tab=readme-ov-file) |
 | 2023/03 | **DiracDiffusion** | **DiracDiffusion: Denoising and Incremental Reconstruction with Assured Data-Consistency**<br /><sup><sub>*Zalan Fabian, Berk Tinaz, Mahdi Soltanolkotabi*</sup></sub> | arXiv<br />2023 |          [Paper](https://arxiv.org/abs/2303.14353)/          |
@@ -98,7 +99,7 @@ Nov. 2023<br />
 | 2023/03 | **ResDiff** | **ResDiff: Combining CNN and Diffusion Model for Image Super-Resolution**<br /><sup><sub>*Shuyao Shang, Zhengyang Shan, Guangxing Liu, Jinglin Zhang*</sup></sub> |   AAAI<br />2024  | [Paper](https://arxiv.org/abs/2303.08714)/[Code](https://github.com/WalkingCat/ResDiff) |
 | 2023/03 |   **IDM**   | **Implicit Diffusion Models for Continuous Super-Resolution**<br /><sup><sub>*Sicheng Gao, Xuhui Liu, Bohan Zeng, Sheng Xu, Yanjing Li, Xiaoyan Luo, Jianzhuang Liu, Xiantong Zhen, Baochang Zhang*</sup></sub> |      CVPR<br />2023      | [Paper](https://arxiv.org/abs/2303.16491)/[Code](https://github.com/IP-SuperResolution/IDM/blob/main/README.md) |
 | 2023/02 | - | **Denoising Diffusion Probabilistic Models for Robust Image Super-Resolution in the Wild**<br /><sup><sub>*Hshmat Sahak, Daniel Watson, Chitwan Saharia, David Fleet*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2302.07864)/ |
-| 2023/02 | **CDPMSR**  | **CDPMSR: Conditional Diffusion Probabilistic Models for Single Image Super-Resolution**<br /><sup><sub>*Axi Niu, Kang Zhang, Trung X. Pham, Jinqiu Sun, Yu Zhu, In So Kweon, Yanning Zhang*</sup></sub> |     ICIP<br />2023      |          [Paper](https://arxiv.org/abs/2302.12831)/          |
+| 2023/02 | **CDPMSR**  | **CDPMSR: Conditional Diffusion Probabilistic Models for Single Image Super-Resolution**<br /><sup><sub>*Axi Niu, Kang Zhang, Trung X. Pham, Jinqiu Sun, Yu Zhu, In So Kweon, Yanning Zhang*</sup></sub> |     arXiv<br />2023      |          [Paper](https://arxiv.org/abs/2302.12831)/          |
 | 2022/09 | **SUE-SR**  | **Face Super-Resolution Using Stochastic Differential Equations**<br /><sup><sub>*Marcelo dos Santos, Rayson Laroca, Rafael O. Ribeiro, João Neves, Hugo Proença, David Menotti*</sup></sub> |    SIGGRAPH<br />2022    | [Paper](https://arxiv.org/abs/2209.12064)/[Code](https://github.com/marcelowds/sr-sde) |
 | 2021/05 |   **CDM**   | **Cascaded Diffusion Models for High Fidelity Image Generation**<br /><sup><sub>*Jonathan Ho, Chitwan Saharia, William Chan, David J. Fleet, Mohammad Norouzi, Tim Salimans.*</sup></sub> |      JMLR<br />2022      | [Paper](https://arxiv.org/abs/2106.15282)/[Code](https://github.com/Theodore-PKU/paper-notes/blob/master/cascaded-di%EF%AC%80usion-models-for-high-fidelity-image-generation-210803.md) |
 | 2021/04 |   **SR3**   | **Image Super-Resolution via Iterative Refinement**<br /><sup><sub>*Chitwan Saharia, Jonathan Ho, William Chan, Tim Salimans, David J. Fleet, Mohammad Norouzi.*</sup></sub> |     TPAMI<br />2022      | [Paper](https://arxiv.org/abs/2104.07636)/[Code](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement) |
