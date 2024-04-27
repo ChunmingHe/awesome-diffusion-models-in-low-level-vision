@@ -329,7 +329,7 @@ Sep. 2022<br />
 | **LLIE**   | [*SDSD-Indoor*](https://github.com/dvlab-research/SDSD)      | 62/6        | ICCV 2021  | Real       | Indoor dataset collected from dynamic scenes under varying lighting conditions. |
 | **LLIE**   | [*SDSD-Outdoor*](https://github.com/dvlab-research/SDSD)     | 116/10      | ICCV 2021  | Real       | Outdoor dataset collected from dynamic scenes under varying lighting conditions. |
 | **Derain** | [*Rain100H*](https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html) | 1800/100    | CVPR 2017  | Syn        | Comprise synthetic datasets with five types of rain streaks for rain removal. |
-| **Derain** | [*RainDrop*](https://github.com/rui1996/DeRaindrop)          | 861/239     | CVPR 2018  | Syn        | \textcolor[rgb]{ .051,  .051,  .051}{Image pairs with raindrop degradation, captured using the setup of dual glasses.} \bigstrut |
+| **Derain** | [*RainDrop*](https://github.com/rui1996/DeRaindrop)          | 861/239     | CVPR 2018  | Syn        | Image pairs with raindrop degradation, captured using the setup of dual glasses.|
 | **Derain** | [*SPA-Data*](https://github.com/stevewongv/SPANet)           | 638492/1000 | CVPR 2019  | Real       | Design a semi-automatic method to generate clean images from real rain streaks. |
 | **Derain** | [*MPID*](https://github.com/panda-lab/Single-Image-Deraining) | 3961/419    | CVPR 2019  | Syn+Real   | A large-scale benchmark that focuses on driving and surveillance scenarios. |
 | **Derain** | [*RainCityscapes*](https://github.com/xw-hu/DAF-Net)         | 9432/1188   | CVPR 2019  | Syn        | A famous rain removal dataset with paired depth maps for outdoor scenarios. |
