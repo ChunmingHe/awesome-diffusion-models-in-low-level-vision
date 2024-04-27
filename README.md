@@ -8,7 +8,7 @@
 
 <p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
 
-<p align=center><b>[ Last updated at 2024/04/24 ]</b></p>
+<p align=center><b>[ Last updated at 2024/04/27 ]</b></p>
 
 
 
@@ -42,6 +42,7 @@
                      * [Super Resolution For Video Generation](#2.3.2)
                      * [Video Restoration](#2.3.3)</details>
 * [Related Surveys Recommended](#4.)
+* [Datasets for low-level vision tasks](#5.)
 * [Reference](#Reference)
 
 ## <a id="3.">Latest Works Recommended</a>
@@ -293,6 +294,51 @@ Sep. 2022<br />
 **Diffusion Models: A Comprehensive Survey of Methods and Applications**<br />
 ACM Computing Surveys 2023. [[Paper](https://arxiv.org/abs/2209.00796)]<br />
 Sep. 2022<br />
+
+## <a id="5.">Datasets for low-level vision tasks</a>
+    Due to space limitations, we provide a summary of commonly used datasets for several classical natural low-level vision tasks here, including their scales, sources, modalities, and remarks. Clicking on the dataset will redirect you to its download link.
+
+| Tasks      | Datasets                                                     | Scales      | Sources    | Modalities | Remarks                                                      |
+| ---------- | ------------------------------------------------------------ | ----------- | ---------- | ---------- | ------------------------------------------------------------ |
+| **SR**     | [*BSD500*](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/) | 500         | TPAMI 2010 | Syn        | A synthetic benchmark that is initially designed for object contour detection. |
+| **SR**     | [*Set14*](https://sites.google.com/site/romanzeyde/research-interests) | 14          | TPAMI 2015 | Syn        | Commonly utilized for testing performance of super-resolution algorithms. |
+| **SR**     | [*Manga109*](http://www.manga109.org/en/)                    | 109         | MTAP 2015  | Syn        | Compiled mainly for academic research on Japanese manga media processing. |
+| **SR**     | [*General100*](https://www.kaggle.com/datasets/msahebi/super-resolution) | 100         | ECCV 2016  | Syn        | Synthesized images in uncompressed BMP format covering various scales. |
+| **SR**     | [*DIV2K*](https://data.vision.ee.ethz.ch/cvl/ntire17//)      | 900/100     | NTIRE 2018 | Real       | A commonly-used dataset with diverse scenarios and realistic degradations. |
+| **SR**     | [*Flickr1024*](https://github.com/YingqianWang/Flickr1024)   | 1024        | ICCVW 2019 | Syn        | A large-scale stereo image dataset with high-quality pairs and diverse scenarios. |
+| **SR**     | [*Urban100*](https://github.com/jbhuang0604/SelfExSR)        | 100         | CVPR 2019  | Syn        | Sourced from urban environments: city streets, buildings, and urban landscapes. |
+| **SR**     | [*DRealSR*](https://github.com/xiezw5/Component-Divide-and-Conquer-for-Real-World-Image-Super-Resolution) | 31970       | ECCV 2020  | Real       | Benchmarks captured by DSLR cameras, circumventing simulated degradation. |
+| **Deblur** | [*GoPro*](https://seungjunnah.github.io/Datasets/gopro)      | 2103/1111   | CVPR 2017  | Syn        | Acquired by high-speed cameras for video quality assessment and restoration. |
+| **Deblur** | [*HIDE*](https://github.com/joanshen0508/HA_deblur)          | 8422        | ICCV 2019  | Syn        | Cover long-distance and short-distance scenarios degraded by motion blur. |
+| **Deblur** | [*REDS*](https://seungjunnah.github.io/Datasets/reds)        | 270/30      | NTIRE 2019 | Real       | Contain 300 video sequences with dynamic duration and varied resolutions. |
+| **Deblur** | [*BSD*](https://seungjunnah.github.io/Datasets/reds)         | 80/20       | ECCV 2020  | Real       | Comprise more scenes and use the proposed beam-splitter acquisition system. |
+| **Deblur** | [*RealBlur*](https://github.com/rimchang/RealBlur)           | 3758/980    | ECCV 2020  | Real       | Cover common instances of motion blur, captured in raw and JPEG formats. |
+| **Dehaze** | [*I-Haze*](https://data.vision.ee.ethz.ch/cvl/ntire18//i-haze/) | 35          | NTIRE 2018 | Real       | Indoor dataset with real haze for objective image dehazing and evaluation. |
+| **Dehaze** | [*O-Haze*](https://data.vision.ee.ethz.ch/cvl/ntire18//o-haze/) | 45          | NTIRE 2018 | Real       | Outdoor dataset with real haze for objective image dehazing and evaluation. |
+| **Dehaze** | [*Dense-Haze*](https://data.vision.ee.ethz.ch/cvl/ntire19//dense-haze/) | 33          | ICIP 2019  | Real       | Real-world dataset with dense haze for robust single image dehazing methods. |
+| **Dehaze** | [*RESIDE*](https://github.com/Boyiliee/RESIDE-dataset-link)  | 13000/990   | TIP 2019   | Syn+Real   | Divided into five subsets to highlight diverse sources and heterogeneous contents. |
+| **Dehaze** | [*NH-Haze*](https://data.vision.ee.ethz.ch/cvl/ntire20/nh-haze/) | 55          | CVRPW 2020 | Real       | The first non-homogeneous dehazing dataset with realistic haze distribution. |
+| **Dehaze** | [*Haze-4K*](https://github.com/liuye123321/DMT-Net)          | 4000        | MM 2021    | Syn        | A large-scale synthetic dataset for image dehazing with varing distributions. |
+| **LLIE**   | [*MIT-Fivek*](https://data.csail.mit.edu/graphics/fivek/)    | 4500/500    | CVPR 2011  | Syn        | A curated dataset of RAW photos adjusted by skilled retouchers for visual appeal. |
+| **LLIE**   | [*LOLv1*](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset) | 485/15      | BMVC 2018  | Real       | The first dataset with image pairs from real scenarios for low-light enhancement. |
+| **LLIE**   | [*SID*](https://github.com/cchen156/Learning-to-See-in-the-Dark) | 5094        | CVPR 2018  | Real       | A dataset of raw short-exposure images with their long-exposure reference images. |
+| **LLIE**   | [*SICE*](https://github.com/csjcai/SICE)                     | 589         | TIP 2018   | Syn        | A large-scale multi-exposure image dataset with complex illumination conditions. |
+| **LLIE**   | [*ExDark*](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset) | 7363        | CVIU 2019  | Real       | Collected in low-light scenarios with 12 classes and instance-level annotations. |
+| **LLIE**   | [*LOLv2-Real*](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset) | 689/100     | TIP 2021   | Real       | A three-step shooting strategy is used to eliminate intra-pair image misalignments. |
+| **LLIE**   | [*LOLv2-Syn*](https://github.com/flyywh/SGM-Low-Light)       | 900/100     | TIP 2021   | Syn        | Synthetic dark images mimic real low-light photography via histogram analysis. |
+| **LLIE**   | [*SDSD-Indoor*](https://github.com/dvlab-research/SDSD)      | 62/6        | ICCV 2021  | Real       | Indoor dataset collected from dynamic scenes under varying lighting conditions. |
+| **LLIE**   | [*SDSD-Outdoor*](https://github.com/dvlab-research/SDSD)     | 116/10      | ICCV 2021  | Real       | Outdoor dataset collected from dynamic scenes under varying lighting conditions. |
+| **Derain** | [*Rain100H*](https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html) | 1800/100    | CVPR 2017  | Syn        | Comprise synthetic datasets with five types of rain streaks for rain removal. |
+| **Derain** | [*RainDrop*](https://github.com/rui1996/DeRaindrop)          | 861/239     | CVPR 2018  | Syn        | \textcolor[rgb]{ .051,  .051,  .051}{Image pairs with raindrop degradation, captured using the setup of dual glasses.} \bigstrut |
+| **Derain** | [*SPA-Data*](https://github.com/stevewongv/SPANet)           | 638492/1000 | CVPR 2019  | Real       | Design a semi-automatic method to generate clean images from real rain streaks. |
+| **Derain** | [*MPID*](https://github.com/panda-lab/Single-Image-Deraining) | 3961/419    | CVPR 2019  | Syn+Real   | A large-scale benchmark that focuses on driving and surveillance scenarios. |
+| **Derain** | [*RainCityscapes*](https://github.com/xw-hu/DAF-Net)         | 9432/1188   | CVPR 2019  | Syn        | A famous rain removal dataset with paired depth maps for outdoor scenarios. |
+| **Derain** | [*RainDS*](https://github.com/Songforrr/RainDS_CCN)          | 3450/900    | CVPR 2021  | Syn+Real   | A hybrid dataset with both real and synthesized data under diverse scenarios. |
+| **Derain** | [*RainDirection*](https://github.com/Yueziyu/RainDirection-and-Real3000-Dataset) | 2920/430    | ICCV 2021  | Syn        | A large-scale synthetic rainy dataset with directional labels in the training phase. |
+| **Derain** | [*GT-RAIN*](https://github.com/UCLA-VMG/GT-RAIN)             | 28217/2100  | ECCV 2022  | Real       | The first paired derain dataset with real data by controlling non-rain variations. |
+| **Desnow** | [*Snow100k*](https://sites.google.com/view/yunfuliu/desnownet) | 100000      | TIP 2018   | Syn+Real   | A large-scale dataset with over 1k real-world images degraded by heavy snow. |
+| **Desnow** | [*SRRS*](https://github.com/weitingchen83/JSTASR-DesnowNet-ECCV-2020) | 16000       | ECCV 2020  | Syn+Real   | A hybrid snow dataset with 15k synthesized images and 1k real-world images. |
+| **Desnow** | [*CSD*](https://github.com/weitingchen83/ICCV2021-Single-Image-Desnowing-HDCWNet) | 10000       | ICCV 2021  | Syn        | A large-scale desnowing dataset to comprehensively simulate snow scenarios. |
 
 ## <a id="Reference">Reference</a>
 
