@@ -296,7 +296,7 @@ ACM Computing Surveys 2023. [[Paper](https://arxiv.org/abs/2209.00796)]<br />
 Sep. 2022<br />
 
 ## <a id="5.">Datasets for low-level vision tasks</a>
-    Due to space limitations, we provide a summary of commonly used datasets for several classical natural low-level vision tasks here, including their scales, sources, modalities, and remarks. Clicking on the dataset will redirect you to its download link.
+    Due to space limitations, we provide a summary of commonly used datasets for several classical natural low-level vision tasks (image restoration tasks) here, including their scales, sources, modalities, and remarks. Clicking on the dataset will redirect you to its download link.
 
 | Tasks      | Datasets                                                     | Scales      | Sources    | Modalities | Remarks                                                      |
 | ---------- | ------------------------------------------------------------ | ----------- | ---------- | ---------- | ------------------------------------------------------------ |
