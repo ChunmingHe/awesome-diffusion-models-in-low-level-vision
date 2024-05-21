@@ -8,7 +8,7 @@
 
 <p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
 
-<p align=center><b>[ Last updated at 2024/04/27 ]</b></p>
+<p align=center><b>[ Last updated at 2024/05/21 ]</b></p>
 
 
 
@@ -81,6 +81,8 @@ Nov. 2023<br />
 | :-----: | :----------: | ------------------------------------------------------------ | :-------------: | :----------------------------------------------------------: |
 | 2024/03 | **DiffUIR** | **Selective Hourglass Mapping for Universal Image Restoration Based on Diffusion Model**<br /><sup><sub>*Dian Zheng, Xiao-Ming Wu, Shuzhou Yang, Jian Zhang, Jian-Fang Hu, Wei-Shi Zheng*</sup></sub> | CVPR<br />2024 | [Paper](https://arxiv.org/abs/2403.11157)/[Code](https://github.com/iSEE-Laboratory/DiffUIR) |
 | 2024/03 | - | **Efficient Diffusion Model for Image Restoration by Residual Shifting**<br /><sup><sub>*Yuanzhi Zhu, Kai Zhang, Jingyun Liang, Jiezhang Cao, Bihan Wen, Radu Timofte, Luc Van Gool*</sup></sub> | arXiv<br />2024 | [Paper](https://arxiv.org/abs/2403.07319)/[Code](https://github.com/zsyOAOA/ResShift) |
+| 2023/08 | **RDDM** | **Residual Denoising Diffusion Models**<br /><sup><sub>*Jiawei Liu, Qiang Wang, Huijie Fan, Yinong Wang, Yandong Tang, Liangqiong Qu*</sup></sub> | CVPR<br />2024 | [Paper](https://arxiv.org/abs/2308.13712)/[Code](https://github.com/nachifur/RDDM) |
+| 2023/08 | **DiffBIR** | **DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior**<br /><sup><sub>*Xinqi Lin, Jingwen He, Ziyan Chen, Zhaoyang Lyu, Bo Dai, Fanghua Yu, Wanli Ouyang, Yu Qiao, Chao Dong*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2308.15070)/[Code](https://github.com/XPixelGroup/DiffBIR) |
 | 2023/05 |   **InDI**   | **Inversion by Direct Iteration: An Alternative to Denoising Diffusion for Image Restoration**<br/><sup><sub>*Mauricio Delbracio, Peyman Milanfar*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2303.11435)/[Code](https://github.com/fpramunno/InDI-implementation?tab=readme-ov-file) |
 | 2023/03 | **DiracDiffusion** | **DiracDiffusion: Denoising and Incremental Reconstruction with Assured Data-Consistency**<br /><sup><sub>*Zalan Fabian, Berk Tinaz, Mahdi Soltanolkotabi*</sup></sub> | arXiv<br />2023 |          [Paper](https://arxiv.org/abs/2303.14353)/          |
 | 2023/04 | **Refusion** | **Refusion: Enabling Large-Size Realistic Image Restoration with Latent-Space Diffusion Models**<br /><sup><sub>*Ziwei Luo, Fredrik K. Gustafsson, Zheng Zhao, Jens Sjölund, Thomas B. Schön*</sup></sub> | CVPRW<br />2023 | [Paper](https://arxiv.org/abs/2304.08291)/[Code](https://github.com/Algolzw/image-restoration-sde?tab=readme-ov-file) |
@@ -92,10 +94,13 @@ Nov. 2023<br />
 
 |  Release   |    Method     | Title                                                        |           Pub.           |                             Link                             |
 | :-----: | :---------: | ------------------------------------------------------------ | :----------------------: | :----------------------------------------------------------: |
+| 2023/11 | **CoSeR** | **CoSeR: Bridging Image and Language for Cognitive Super-Resolution**<br /><sup><sub>*Haoze Sun, Wenbo Li, Jianzhuang Liu, Haoyu Chen, Renjing Pei, Xueyi Zou, Youliang Yan, Yujiu Yang*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2311.16512)/[Code](https://github.com/VINHYU/CoSeR) |
 | 2023/09 | - | **License Plate Super-Resolution Using Diffusion Models**<br /><sup><sub>*Sawsan AlHalawani, Bilel Benjdira, Adel Ammar, Anis Koubaa, Anas M. Ali*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2309.12506)/ |
+| 2023/08 | **PASD** | **Pixel-Aware Stable Diffusion for Realistic Image Super-resolution and Personalized Stylization**<br /><sup><sub>*Tao Yang, Rongyuan Wu, Peiran Ren, Xuansong Xie, Lei Zhang*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2308.14469)/[Code](https://github.com/yangxy/PASD/) |
 | 2023/07 | **ResShift** | **ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shifting**<br /><sup><sub>*Zongsheng Yue, Jianyi Wang, Chen Change Loy*</sup></sub> | NIPS<br />2023 | [Paper](https://arxiv.org/abs/2307.12348)/[Code](https://github.com/zsyOAOA/ResShift) |
 | 2023/07 | **PartDiff** | **PartDiff: Image Super-resolution with Partial Diffusion Models**<br /><sup><sub>*Axi Niu, Pham Xuan Trung, Kang Zhang, Jinqiu Sun, Yu Zhu, In So Kweon, Yanning Zhang*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2307.11926)/ |
 | 2023/07 | **ACDMSR** | **ACDMSR: Accelerated Conditional Diffusion Models for Single Image Super-Resolution**<br /><sup><sub>*Axi Niu, Pham Xuan Trung, Kang Zhang, Jinqiu Sun, Yu Zhu, In So Kweon, Yanning Zhang*</sup></sub> | IEEE Trans. Broadcast.<br />2024 | [Paper](https://arxiv.org/abs/2307.00781)/ |
+| 2023/05 | **StableSR** | **Exploiting Diffusion Prior for Real-World Image Super-Resolution**<br /><sup><sub>*Jianyi Wang, Zongsheng Yue, Shangchen Zhou, Kelvin C.K. Chan, Chen Change Loy*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2305.07015)/[Code](https://github.com/IceClear/StableSR) |
 | 2023/03 | **DR2** | **DR2: Diffusion-Based Robust Degradation Remover for Blind Face Restoration**<br /><sup><sub>*Zhixin Wang, Xiaoyun Zhang, Ziying Zhang, Huangjie Zheng, Mingyuan Zhou, Ya Zhang, Yanfeng Wang*</sup></sub> | CVPR<br />2023 | [Paper](https://arxiv.org/abs/2303.06885)/[Code](https://github.com/Kaldwin0106/DR2_Drgradation_Remover) |
 | 2023/03 | **ResDiff** | **ResDiff: Combining CNN and Diffusion Model for Image Super-Resolution**<br /><sup><sub>*Shuyao Shang, Zhengyang Shan, Guangxing Liu, Jinglin Zhang*</sup></sub> |   AAAI<br />2024  | [Paper](https://arxiv.org/abs/2303.08714)/[Code](https://github.com/WalkingCat/ResDiff) |
 | 2023/03 |   **IDM**   | **Implicit Diffusion Models for Continuous Super-Resolution**<br /><sup><sub>*Sicheng Gao, Xuhui Liu, Bohan Zeng, Sheng Xu, Yanjing Li, Xiaoyan Luo, Jianzhuang Liu, Xiantong Zhen, Baochang Zhang*</sup></sub> |      CVPR<br />2023      | [Paper](https://arxiv.org/abs/2303.16491)/[Code](https://github.com/IP-SuperResolution/IDM/blob/main/README.md) |
@@ -296,7 +301,7 @@ ACM Computing Surveys 2023. [[Paper](https://arxiv.org/abs/2209.00796)]<br />
 Sep. 2022<br />
 
 ## <a id="5.">Datasets for low-level vision tasks</a>
-    Due to space limitations, we provide a summary of commonly used datasets for several classical natural low-level vision tasks here (a dataset list for image restoration tasks), including their scales, sources, modalities, and remarks. Clicking on the dataset will redirect you to its download link.
+    Due to space limitations, we provide a summary of commonly used datasets for several classical natural low-level vision tasks here, including their scales, sources, modalities, and remarks. Clicking on the dataset will redirect you to its download link.
 
 | Tasks      | Datasets                                                     | Scales      | Sources    | Modalities | Remarks                                                      |
 | ---------- | ------------------------------------------------------------ | ----------- | ---------- | ---------- | ------------------------------------------------------------ |
