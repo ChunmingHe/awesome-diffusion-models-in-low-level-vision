@@ -8,7 +8,7 @@
 
 <p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
 
-<p align=center><b>[ Last updated at 2024/05/21 ]</b></p>
+<p align=center><b>[ Last updated at 2024/07/18 ]</b></p>
 
 
 
@@ -268,6 +268,9 @@ Nov. 2023<br />
 | 2024/03 | **DiffTTA** | **Genuine Knowledge from Practice: Diffusion Test-Time Adaptation for Video Adverse Weather Removal**<br /><sup><sub>*Yijun Yang, Hongtao Wu, Angelica I. Aviles-Rivero, Yulun Zhang, Jing Qin, Lei Zhu*</sup></sub> | CVPR<br />2024 | [Paper](https://arxiv.org/abs/2403.07684)/[Code](https://github.com/scott-yjyang/DiffTTA) |
 
 ## <a id="4.">Related Surveys Recommended</a>
+
+**Diffusion Models in Low-Level Vision: A Survey**<br />
+arXiv 2024. [[Paper](https://arxiv.org/abs/2406.11138)] <br />Jun. 2024<br />
 
 **Diffusion Models Meet Remote Sensing: Principles, Methods, and Perspectives**<br />
 arXiv 2024. [[Paper](https://arxiv.org/abs/2404.08926)] <br />Apr. 2024<br />
