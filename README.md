@@ -574,23 +574,23 @@ Due to space limitations, we provide a summary of commonly used datasets for sev
 ## <a id="6.">Evaluation metrics</a>
 Due to space limitations, we only introduced the evaluation metrics involved in the comparative experiments in the survey. Here, we provide a more comprehensive overview of the commonly used metrics in low-level vision tasks.
 ### <a id="6.1"> Distortion-based metrics</a>
-- **PSNR (Peak Signal to Noise Ratio) **
+- **PSNR (Peak Signal to Noise Ratio)** <br />
 PSNR quantifies the pixel-wise disparity between a corrupted image and its clean image by computing their mean squared error.
-- **SSIM (Structural Similarity)**
+- **SSIM (Structural Similarity)** <br />
 SSIM aims to accommodate human visual perception, assesses the likeness between distorted and clean images across three aspects, including contrast, brightness, and structure. 
 ### <a id="6.2"> Inception-based metrics</a>
-- **LPIPS (Learned Perceptual Image Patch Similarity)**
+- **LPIPS (Learned Perceptual Image Patch Similarity)** <br />
 LPIPS is a learning-based metric that leverages the pre-trained AlexNet as a feature extractor and adjusts the linear layer to emulate human perception.
-- **FID (Fréchet inception distance) **
+- **FID (Fréchet inception distance)** <br />
 FID assesses the fidelity and diversity of generated images by  modeling the feature-level multivariate Gaussian distribution of the extracted features, by computing the Fréchet distance of their reference images. 
-- **KID (Kernel Inception Distance)**
+- **KID (Kernel Inception Distance)** <br />
 KID is similar to FID, which also leverages the extracted features for assessment but employs maximum mean discrepancy with a polynomial kernel to measure the distance, showing greater stability in the zero-shot and few-shot conditions. KID, specifically, demonstrates greater stability even with limited samples compared to FID. 
-- **NIQE (Natural Image Quality Evaluator)**
+- **NIQE (Natural Image Quality Evaluator)** <br />
 A no-reference metric, evaluates the distance between the natural scene statistics of distorted images and natural images modeled with a multivariate Gaussian model.
-- **DISTS (Deep Image Structure and Texture Similarity)**
+- **DISTS (Deep Image Structure and Texture Similarity)** <br />
 DISTS notes that texture and structure similarities between two images can be assessed by their feature means and correlations obtained from VGG and thus utilizes an SSIM-like distance measurement within the feature space to determine texture and structure similarities.
-- **PI**
-PI  is introduced in the PIRM Challenge on perceptual SR, aiming to evaluate the perceptual quality of super-resolved images. Its definition, PI=0.5((10-Ma)+NIQE), incorporates Ma , a no-reference IQA metric for SR.
+- **PI** <br />
+PI is introduced in the PIRM Challenge on perceptual SR, aiming to evaluate the perceptual quality of super-resolved images. Its definition, PI=0.5((10-Ma)+NIQE), incorporates Ma , a no-reference IQA metric for SR.
 
 ## <a id="Reference">Reference</a>
 
