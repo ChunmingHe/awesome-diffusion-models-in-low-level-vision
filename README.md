@@ -43,6 +43,7 @@
                      * [Video Restoration](#2.3.3)</details>
 * [Related Surveys Recommended](#4.)
 * [Datasets for low-level vision tasks](#5.)
+* [Evaluation metrics](#6.)
 * [Reference](#Reference)
 
 ## <a id="3.">Latest Works Recommended</a>
@@ -527,7 +528,7 @@ ACM Computing Surveys 2023. [[Paper](https://arxiv.org/abs/2209.00796)]<br />
 Sep. 2022<br />
 
 ## <a id="5.">Datasets for low-level vision tasks</a>
-    Due to space limitations, we provide a summary of commonly used datasets for several classical natural low-level vision tasks here, including their scales, sources, modalities, and remarks. Clicking on the dataset will redirect you to its download link.
+Due to space limitations, we provide a summary of commonly used datasets for several classical natural low-level vision tasks here, including their scales, sources, modalities, and remarks. Clicking on the dataset will redirect you to its download link.
 
 | Tasks      | Datasets                                                     | Scales      | Sources    | Modalities | Remarks                                                      |
 | ---------- | ------------------------------------------------------------ | ----------- | ---------- | ---------- | ------------------------------------------------------------ |
@@ -570,6 +571,26 @@ Sep. 2022<br />
 | **Desnow** | [*Snow100k*](https://sites.google.com/view/yunfuliu/desnownet) | 100000      | TIP 2018   | Syn+Real   | A large-scale dataset with over 1k real-world images degraded by heavy snow. |
 | **Desnow** | [*SRRS*](https://github.com/weitingchen83/JSTASR-DesnowNet-ECCV-2020) | 16000       | ECCV 2020  | Syn+Real   | A hybrid snow dataset with 15k synthesized images and 1k real-world images. |
 | **Desnow** | [*CSD*](https://github.com/weitingchen83/ICCV2021-Single-Image-Desnowing-HDCWNet) | 10000       | ICCV 2021  | Syn        | A large-scale desnowing dataset to comprehensively simulate snow scenarios. |
+## <a id="6.">Evaluation metrics</a>
+Due to space limitations, we only introduced the evaluation metrics involved in the comparative experiments in the survey. Here, we provide a more comprehensive overview of the commonly used metrics in low-level vision tasks.
+### <a id="6.1"> Distortion-based metrics</a>
+- **PSNR (Peak Signal to Noise Ratio) **
+PSNR quantifies the pixel-wise disparity between a corrupted image and its clean image by computing their mean squared error.
+- **SSIM (Structural Similarity)**
+SSIM aims to accommodate human visual perception, assesses the likeness between distorted and clean images across three aspects, including contrast, brightness, and structure. 
+### <a id="6.2"> Inception-based metrics</a>
+- **LPIPS (Learned Perceptual Image Patch Similarity)**
+LPIPS is a learning-based metric that leverages the pre-trained AlexNet as a feature extractor and adjusts the linear layer to emulate human perception.
+- **FID (Fréchet inception distance) **
+FID assesses the fidelity and diversity of generated images by  modeling the feature-level multivariate Gaussian distribution of the extracted features, by computing the Fréchet distance of their reference images. 
+- **KID (Kernel Inception Distance)**
+KID is similar to FID, which also leverages the extracted features for assessment but employs maximum mean discrepancy with a polynomial kernel to measure the distance, showing greater stability in the zero-shot and few-shot conditions. KID, specifically, demonstrates greater stability even with limited samples compared to FID. 
+- **NIQE (Natural Image Quality Evaluator)**
+A no-reference metric, evaluates the distance between the natural scene statistics of distorted images and natural images modeled with a multivariate Gaussian model.
+- **DISTS (Deep Image Structure and Texture Similarity)**
+DISTS notes that texture and structure similarities between two images can be assessed by their feature means and correlations obtained from VGG and thus utilizes an SSIM-like distance measurement within the feature space to determine texture and structure similarities.
+- **PI**
+PI  is introduced in the PIRM Challenge on perceptual SR, aiming to evaluate the perceptual quality of super-resolved images. Its definition, PI=0.5((10-Ma)+NIQE), incorporates Ma , a no-reference IQA metric for SR.
 
 ## <a id="Reference">Reference</a>
 
