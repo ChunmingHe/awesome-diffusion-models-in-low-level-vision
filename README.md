@@ -590,7 +590,7 @@ A no-reference metric, evaluates the distance between the natural scene statisti
 - **DISTS (Deep Image Structure and Texture Similarity)** <br />
 DISTS notes that texture and structure similarities between two images can be assessed by their feature means and correlations obtained from VGG and thus utilizes an SSIM-like distance measurement within the feature space to determine texture and structure similarities.
 - **PI** <br />
-PI is introduced in the PIRM Challenge on perceptual SR, aiming to evaluate the perceptual quality of super-resolved images. Its definition, PI=0.5((10-Ma)+NIQE), incorporates Ma , a no-reference IQA metric for SR.
+PI is introduced in the PIRM Challenge on perceptual SR, aiming to evaluate the perceptual quality of super-resolved images. Its definition, PI=0.5((10-Ma)+NIQE), incorporates Ma, a no-reference IQA metric for SR.
 
 ## <a id="Reference">Reference</a>
 
