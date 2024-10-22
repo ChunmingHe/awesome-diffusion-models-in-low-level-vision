@@ -533,11 +533,11 @@ Here, we provide a more comprehensive overview of the commonly used Large-scale 
 - ***ImageNet*** <br />
 ImageNet  is a large-scale dataset with over 14 million natural images spanning over 21k classes, termed *ImageNet21K*. *ImageNet1k*, serving as a subset of *ImageNet21K*, has 1k classes with about 1k images per class, often resized to practical dimensions of 224 × 224 or 256 × 256. 
 - ***CelebA*** <br />
-*CelebA* has 200k facial images, each annotated with 40 attributes, featuring 10k celebrities. *CelebA-HQ* is a subset having 30k high-resolution facial images with a resolution of 1024  ×1024. Enhanced with detailed annotations, *CelebAMask-HQ* is derived from pixel-wise facial component labeling (face parsing).
+*CelebA* has 200k facial images, each annotated with 40 attributes, featuring 10k celebrities. *CelebA-HQ* is a subset having 30k high-resolution facial images with a resolution of 1024  × 1024. Enhanced with detailed annotations, *CelebAMask-HQ* is derived from pixel-wise facial component labeling (face parsing).
 - ***LSUN*** <br />
 *LSUN* includes 10 scene categories and 20 object categories, each having about 1 million labeled images, typically resized with a shorter edge of 256 pixels and compressed to JPEG image quality of 75. 
 - ***AFHQ*** <br />
-*AFHQ* comprises around 5,000 high-quality animal face images with three categories: cat, dog, and wildlife, each with a resolution of 512×512. Current approaches frequently opt to train diffusion models on specific categories, such as cats.
+*AFHQ* comprises around 5,000 high-quality animal face images with three categories: cat, dog, and wildlife, each with a resolution of 512 × 512. Current approaches frequently opt to train diffusion models on specific categories, such as cats.
 - ***FFHQ*** <br />
 *FFHQ* comprises 70k high-resolution facial images with diverse distributions. Existing methods based on pre-trained DMs undergo training on *FFHQ* and evaluation on *CelebA-HQ* to showcase their generalizability.
 
