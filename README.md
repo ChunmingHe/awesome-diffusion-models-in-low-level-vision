@@ -42,6 +42,7 @@
                      * [Super Resolution For Video Generation](#2.3.2)
                      * [Video Restoration](#2.3.3)</details>
 * [Related Surveys Recommended](#4.)
+* [Large-scale datasets for model pre-training](#7.)
 * [Datasets for low-level vision tasks](#5.)
 * [Evaluation metrics](#6.)
 * [Reference](#Reference)
@@ -527,6 +528,18 @@ Sep. 2022<br />
 **Diffusion Models: A Comprehensive Survey of Methods and Applications**<br />
 ACM Computing Surveys 2023. [[Paper](https://arxiv.org/abs/2209.00796)]<br />
 Sep. 2022<br />
+## <a id="7.">Large-scale datasets for model pre-training</a>
+Here, we provide a more comprehensive overview of the commonly used Large-scale datasets for model pre-training in low-level vision tasks.
+- ***ImageNet*** <br />
+ImageNet  is a large-scale dataset with over 14 million natural images spanning over 21k classes, termed *ImageNet21K*. *ImageNet1k*, serving as a subset of *ImageNet21K*, has 1k classes with about 1k images per class, often resized to practical dimensions of 224 × 224 or 256 × 256. 
+- ***CelebA*** <br />
+*CelebA* has 200k facial images, each annotated with 40 attributes, featuring 10k celebrities. *CelebA-HQ* is a subset having 30k high-resolution facial images with a resolution of 1024  ×1024. Enhanced with detailed annotations, *CelebAMask-HQ* is derived from pixel-wise facial component labeling (face parsing).
+- ***LSUN***
+*LSUN* includes 10 scene categories and 20 object categories, each having about 1 million labeled images, typically resized with a shorter edge of 256 pixels and compressed to JPEG image quality of 75. 
+- ***AFHQ***
+*AFHQ* comprises around 5,000 high-quality animal face images with three categories: cat, dog, and wildlife, each with a resolution of 512×512. Current approaches frequently opt to train diffusion models on specific categories, such as cats.
+- ***FFHQ***
+*FFHQ* comprises 70k high-resolution facial images with diverse distributions. Existing methods based on pre-trained DMs undergo training on *FFHQ* and evaluation on *CelebA-HQ* to showcase their generalizability.
 
 ## <a id="5.">Datasets for low-level vision tasks</a>
 Due to space limitations, we provide a summary of commonly used datasets for several classical natural low-level vision tasks here, including their scales, sources, modalities, and remarks. Clicking on the dataset will redirect you to its download link.
