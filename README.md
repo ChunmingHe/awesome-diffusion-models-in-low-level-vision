@@ -614,3 +614,6 @@ PI is introduced in the PIRM Challenge on perceptual SR, aiming to evaluate the 
 
 [Awesome-Diffusion-Models-in-Medical-Imaging: Diffusion Models in Medical Imaging](https://github.com/amirhossein-kz/Awesome-Diffusion-Models-in-Medical-Imaging)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ChunmingHe/awesome-diffusion-models-in-low-level-vision&type=Date)](https://star-history.com/#ChunmingHe/awesome-diffusion-models-in-low-level-vision&Date)
