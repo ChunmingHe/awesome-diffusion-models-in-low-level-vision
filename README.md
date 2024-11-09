@@ -49,11 +49,14 @@
 
 ## <a id="3.">Latest Works Recommended</a>
 
-**Diffusion Models in Low-Level Vision: A Survey**<br />*Chunming He, Yuqi Shen, Chengyu Fang, Fengyang Xiao, Longxiang Tang, Yulun Zhang, Wangmeng Zuo, Zhenhua Guo, Xiu Li*<br />arXiv 2024. [[Paper](https://arxiv.org/abs/2406.11138)] <br />Jun. 2024<br />
+**Diffusion Models in Low-Level Vision: A Survey**<br />*Chunming He, Yuqi Shen, Chengyu Fang, Fengyang Xiao, Longxiang Tang, Yulun Zhang, Wangmeng Zuo, Zhenhua Guo, Xiu Li*<br />arXiv 2024. [[Paper](https://arxiv.org/abs/2406.11138)] <br />June 2024<br />
 
 **Reti-Diff: Illumination Degradation Image Restoration with Retinex-based Latent Diffusion Model**<br />*Chunming He, Chengyu Fang, Yulun Zhang, Kai Li, Longxiang Tang, Chenyu You, Fengyang Xiao, Zhenhua Guo, Xiu Li*<br />
 arXiv 2023. [[Paper](https://arxiv.org/abs/2311.11638)] [[Code](https://github.com/ChunmingHe/Reti-Diff)]<br />
-Nov. 2023<br />
+March 2024<br />
+
+**Diff-retinex: Rethinking low-light image enhancement with a generative diffusion model**<br />*Xunpeng Yi, Han Xu, Hao Zhang, Linfeng Tang, Jiayi Ma*<br />
+ICCV 2023.  [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Yi_Diff-Retinex_Rethinking_Low-light_Image_Enhancement_with_A_Generative_Diffusion_Model_ICCV_2023_paper.pdf)] [[code](https://github.com/XunpengYi/Diff-Retinex)]
 
 ## <a id="Papers">Papers</a>
 
@@ -241,7 +244,7 @@ Nov. 2023<br />
 | 2023/09 | - | **Bootstrap Diffusion Model Curve Estimation for High Resolution Low-Light Image Enhancement**<br /><sup><sub>*Jiancheng Huang, Yifan Liu, Shifeng Chen*</sup></sub> | PRICAI<br /> 2023 | [Paper](https://arxiv.org/abs/2309.14709)/ |
 | 2023/08 | **DiffLLE** | **DiffLLE: Diffusion-guided Domain Calibration for Unsupervised Low-light Image Enhancement**<br /><sup><sub>*Shuzhou Yang, Xuanyu Zhang, Yinhuai Wang, Jiwen Yu, Yuhan Wang, Jian Zhang*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2308.09279)/ |
 | 2023/08 | **ExposureDiffusion** | **ExposureDiffusion: Learning to Expose for Low-light Image Enhancement**<br /><sup><sub>*Yufei Wang, Yi Yu, Wenhan Yang, Lanqing Guo, Lap-Pui Chau, Alex C. Kot, Bihan Wen*</sup></sub> | ICCV<br />2023 | [Paper](https://arxiv.org/pdf/2307.07710.pdf)/[Code](https://github.com/IP-Enhancement/ExposureDiffusion/tree/main) |
-| 2023/08 | **Diff-Retinex** | **Diff-Retinex: Rethinking Low-light Image Enhancement with A Generative Diffusion Model**<br /><sup><sub>*Xunpeng Yi, Han Xu, Hao Zhang, Linfeng Tang, Jiayi Ma*</sup></sub> | ICCV<br />2023 | [Paper](https://ieeexplore.ieee.org/document/10377645)/ |
+| 2023/08 | **Diff-Retinex** | **Diff-Retinex: Rethinking Low-light Image Enhancement with A Generative Diffusion Model**<br /><sup><sub>*Xunpeng Yi, Han Xu, Hao Zhang, Linfeng Tang, Jiayi Ma*</sup></sub> | ICCV<br />2023 | [Paper](https://ieeexplore.ieee.org/document/10377645)/[Code](https://github.com/XunpengYi/Diff-Retinex) |
 | 2023/08 | **CLE Diffusion** | **CLE Diffusion: Controllable Light Enhancement Diffusion Model**<br /><sup><sub>*Yuyang Yin, Dejia Xu, Chuangchuang Tan, Ping Liu, Yao Zhao, Yunchao Wei*</sup></sub> | MM<br />23 | [Paper](https://arxiv.org/abs/2308.06725)/[Code](https://github.com/YuyangYin/CLEDiffusion) |
 | 2023/07 | **LLDiffusion** | **LLDiffusion: Learning Degradation Representations in Diffusion Models for Low-Light Image Enhancement**<br /><sup><sub>*Tao Wang, Kaihao Zhang, Ziqian Shao, Wenhan Luo, Bjorn Stenger, Tae-Kyun Kim, Wei Liu, Hongdong Li*</sup></sub> | arXiv<br />2023 | [Paper](https://arxiv.org/abs/2307.14659)/[Code](https://github.com/TaoWangzj/LLDiffusion) |
 | 2023/07 | **DiffLIE** | **DiffLIE: Low-Light Image Enhancment based on Deep Diffusion Model**<br /><sup><sub>*Guanyu Wu; Cheng. Jin*</sup></sub> | ISCTIS<br />2023 | [Paper](https://ieeexplore.ieee.org/abstract/document/10213153)/ |
