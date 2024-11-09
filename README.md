@@ -55,9 +55,6 @@
 arXiv 2023. [[Paper](https://arxiv.org/abs/2311.11638)] [[Code](https://github.com/ChunmingHe/Reti-Diff)]<br />
 March 2024<br />
 
-**Diff-retinex: Rethinking low-light image enhancement with a generative diffusion model**<br />*Xunpeng Yi, Han Xu, Hao Zhang, Linfeng Tang, Jiayi Ma*<br />
-ICCV 2023.  [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Yi_Diff-Retinex_Rethinking_Low-light_Image_Enhancement_with_A_Generative_Diffusion_Model_ICCV_2023_paper.pdf)] [[code](https://github.com/XunpengYi/Diff-Retinex)]
-
 ## <a id="Papers">Papers</a>
 
 ### <a id="1.">1. Diffusion Models For Natural Image Restoration</a>
