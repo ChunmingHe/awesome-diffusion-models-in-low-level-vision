@@ -8,7 +8,7 @@
 
 <p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
 
-<p align=center><b>[ Last updated at 2024/10/12 ]</b></p>
+<p align=center><b>[ Last updated at 2024/11/28 ]</b></p>
 
 
 
@@ -71,6 +71,7 @@ March 2024<br />
 | 2024/07 | **ZAPS** |  **Zero-Shot Adaptation for Approximate Posterior Sampling of Diffusion Models in Inverse Problems**<br /><sup><sub>*Yaşar Utku Alçalar, Mehmet Akçakaya*</sup></sub> | ECCV<br />2024 |  [Paper](https://arxiv.org/abs/2407.11288)/[Code](https://github.com/ualcalar17/ZAPS) |
 | 2024/07 | **DDIP3D** | **Deep Diffusion Image Prior for Efficient OOD Adaptation in 3D Inverse Problems**<br /><sup><sub>*Hyungjin Chung, Jong Chul Ye*</sup></sub> | ECCV<br />2024  |  [Paper](https://arxiv.org/abs/2407.10641)/[Code](https://github.com/HJ-harry/DDIP3D) |
 | 2024/07 | **MoE-DiffIR** | **MoE-DiffIR: Task-customized Diffusion Priors for Universal Compressed Image Restoration**<br /><sup><sub>*Yulin Ren, Xin Li, Bingchen Li, Xingrui Wang, Mengxi Guo, Shijie Zhao, Li Zhang, Zhibo Chen*</sup></sub> | ECCV<br />2024 | [Paper](https://www.arxiv.org/abs/2407.10833)/[Code](https://github.com/renyulin-f/MoE-DiffIR) |
+| 2024/05 | **DMPlug** | **DMPlug: A Plug-in Method for Solving Inverse Problems with Diffusion Models**<br /><sup><sub>*Hengkang Wang, Xu Zhang, Taihui Li, Yuxiang Wan, Tiancong Chen, Ju Sun*</sup></sub> | NeurIPS<br />2024 | [Paper](https://arxiv.org/abs/2405.16749)/[Code](https://github.com/sun-umn/DMPlug) |
 | 2024/03 | **Osmosis** | **Osmosis: RGBD Diffusion Prior for Underwater Image Restoration**<br /><sup><sub>*Opher Bar Nathan, Deborah Levy, Tali Treibitz, Dan Rosenbaum*</sup></sub> | ECCV<br />2024 | [Paper](https://arxiv.org/abs/2403.14837)/[Code](https://github.com/osmosis-diffusion/osmosis-diffusion-code) |
 | 2024/03 | **DCDP** | **Decoupled Data Consistency with Diffusion Purification for Image Restoration**<br /><sup><sub>*Xiang Li, Soo Min Kwon, Ismail R. Alkhouri, Saiprasad Ravishankar, Qing Qu*</sup></sub> | arXiv<br />2024 | [Paper](https://arxiv.org/abs/2403.06054)/[Code](https://github.com/Morefre/Decoupled-Data-Consistency-with-Diffusion-Purification-for-Image-Restoration) |
 | 2024/03 | **Diff-Plugin** | **Diff-Plugin: Revitalizing Details for Diffusion-based Low-level Tasks**<br /><sup><sub>*Yuhao Liu, Zhanghan Ke, Fang Liu, Nanxuan Zhao, Rynson W.H. Lau*</sup></sub> | CVPR<br />2024 | [Paper](https://arxiv.org/abs/2403.00644)/[Code](https://github.com/yuhaoliu7456/Diff-Plugin) |
