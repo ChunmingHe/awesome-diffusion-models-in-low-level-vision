@@ -8,7 +8,7 @@
 
 <p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
 
-<p align=center><b>[ Last updated at 2024/11/28 ]</b></p>
+<p align=center><b>[ Last updated at 2025/01/01 ]</b></p>
 
 
 
@@ -96,6 +96,7 @@ March 2024<br />
 
 |  Release   |     Method     | Title                                                        |      Pub.       |                             Link                             |
 | :-----: | :----------: | ------------------------------------------------------------ | :-------------: | :----------------------------------------------------------: |
+| 2024/12 | **VSPBFR** | **Visual Style Prompt Learning Using Diffusion Models for Blind Face Restoration**<br /><sup><sub>*Wanglong Lu, Jikai Wang, Tao Wang, Kaihao Zhang, Xianta Jiang, Hanli Zhao*</sup></sub> | Pattern Recognition<br />2025 | [Paper](https://arxiv.org/abs/2412.21042)/[Code](https://github.com/LonglongaaaGo/VSPBFR) |
 | 2024/10 | **Resfusion** | **Resfusion: Denoising Diffusion Probabilistic Models for Image Restoration Based on Prior Residual Noise**<br /><sup><sub>*Zhenning Shi, Haoshuai Zheng, Chen Xu, Changsheng Dong, Bin Pan, Xueshuo Xie, Along He, Tao Li, Huazhu Fu*</sup></sub> | NeurIPS<br /> 2024 | [Paper](https://arxiv.org/abs/2311.14900)/[Code](https://github.com/nkicsl/Resfusion) |
 | 2024/09 | **DTPM** | **Learning Diffusion Texture Priors for Image Restoration**<br /><sup><sub>*Tian Ye, Sixiang Chen, Wenhao Chai, Zhaohu Xing, Jing Qin, Ge Lin, Lei Zhu*</sup></sub> | CVPR<br />2024 | [Paper](https://ieeexplore.ieee.org/document/10654894/authors#authors)/|
 | 2024/07 | **Difface** | **Difface: Blind face restoration with diffused error contraction**<br /><sup><sub>*Zongsheng Yue, Chen Change Loy*</sup></sub> | TPAMI<br />2024 | [Paper](https://arxiv.org/abs/2212.06512)/[Code](https://github.com/zsyOAOA/DifFace) |
