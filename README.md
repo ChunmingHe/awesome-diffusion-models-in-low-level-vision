@@ -552,7 +552,7 @@ Due to space limitations, we provide a summary of commonly used datasets for sev
 | **SR**     | [*Set14*](https://sites.google.com/site/romanzeyde/research-interests) | 14          | TPAMI 2015 | Syn        | Commonly utilized for testing performance of super-resolution algorithms. |
 | **SR**     | [*Manga109*](http://www.manga109.org/en/)                    | 109         | MTAP 2015  | Syn        | Compiled mainly for academic research on Japanese manga media processing. |
 | **SR**     | [*General100*](https://www.kaggle.com/datasets/msahebi/super-resolution) | 100         | ECCV 2016  | Syn        | Synthesized images in uncompressed BMP format covering various scales. |
-| **SR**     | [*DIV2K*](https://data.vision.ee.ethz.ch/cvl/ntire17//)      | 900/100     | NTIRE 2018 | Real       | A commonly-used dataset with diverse scenarios and realistic degradations. |
+| **SR**     | [*DIV2K*](https://data.vision.ee.ethz.ch/cvl/ntire17//)      | 900/100     | NTIRE 2018 | Syn       | A commonly-used dataset with diverse scenarios and realistic degradations. |
 | **SR**     | [*Flickr1024*](https://github.com/YingqianWang/Flickr1024)   | 1024        | ICCVW 2019 | Syn        | A large-scale stereo image dataset with high-quality pairs and diverse scenarios. |
 | **SR**     | [*Urban100*](https://github.com/jbhuang0604/SelfExSR)        | 100         | CVPR 2019  | Syn        | Sourced from urban environments: city streets, buildings, and urban landscapes. |
 | **SR**     | [*DRealSR*](https://github.com/xiezw5/Component-Divide-and-Conquer-for-Real-World-Image-Super-Resolution) | 31970       | ECCV 2020  | Real       | Benchmarks captured by DSLR cameras, circumventing simulated degradation. |
