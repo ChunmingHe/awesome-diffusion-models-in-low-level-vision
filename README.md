@@ -568,7 +568,7 @@ Due to space limitations, we provide a summary of commonly used datasets for sev
 | **Dehaze** | [*NH-Haze*](https://data.vision.ee.ethz.ch/cvl/ntire20/nh-haze/) | 55          | CVRPW 2020 | Real       | The first non-homogeneous dehazing dataset with realistic haze distribution. |
 | **Dehaze** | [*Haze-4K*](https://github.com/liuye123321/DMT-Net)          | 4000        | MM 2021    | Syn        | A large-scale synthetic dataset for image dehazing with varing distributions. |
 | **LLIE**   | [*MIT-Fivek*](https://data.csail.mit.edu/graphics/fivek/)    | 4500/500    | CVPR 2011  | Syn        | A curated dataset of RAW photos adjusted by skilled retouchers for visual appeal. |
-| **LLIE**   | [*LOLv1*](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset) | 485/15      | BMVC 2018  | Real       | The first dataset with image pairs from real scenarios for low-light enhancement. |
+| **LLIE**   | [*LOLv1*](https://daooshee.github.io/BMVC2018website/) | 485/15      | BMVC 2018  | Real       | The first dataset with image pairs from real scenarios for low-light enhancement. |
 | **LLIE**   | [*SID*](https://github.com/cchen156/Learning-to-See-in-the-Dark) | 5094        | CVPR 2018  | Real       | A dataset of raw short-exposure images with their long-exposure reference images. |
 | **LLIE**   | [*SICE*](https://github.com/csjcai/SICE)                     | 589         | TIP 2018   | Syn        | A large-scale multi-exposure image dataset with complex illumination conditions. |
 | **LLIE**   | [*ExDark*](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset) | 7363        | CVIU 2019  | Real       | Collected in low-light scenarios with 12 classes and instance-level annotations. |
