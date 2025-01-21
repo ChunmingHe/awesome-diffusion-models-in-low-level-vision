@@ -572,7 +572,7 @@ Due to space limitations, we provide a summary of commonly used datasets for sev
 | **LLIE**   | [*SID*](https://github.com/cchen156/Learning-to-See-in-the-Dark) | 5094        | CVPR 2018  | Real       | A dataset of raw short-exposure images with their long-exposure reference images. |
 | **LLIE**   | [*SICE*](https://github.com/csjcai/SICE)                     | 589         | TIP 2018   | Syn        | A large-scale multi-exposure image dataset with complex illumination conditions. |
 | **LLIE**   | [*ExDark*](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset) | 7363        | CVIU 2019  | Real       | Collected in low-light scenarios with 12 classes and instance-level annotations. |
-| **LLIE**   | [*LOLv2-Real*](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset) | 689/100     | TIP 2021   | Real       | A three-step shooting strategy is used to eliminate intra-pair image misalignments. |
+| **LLIE**   | [*LOLv2-Real*](https://github.com/flyywh/SGM-Low-Light) | 689/100     | TIP 2021   | Real       | A three-step shooting strategy is used to eliminate intra-pair image misalignments. |
 | **LLIE**   | [*LOLv2-Syn*](https://github.com/flyywh/SGM-Low-Light)       | 900/100     | TIP 2021   | Syn        | Synthetic dark images mimic real low-light photography via histogram analysis. |
 | **LLIE**   | [*SDSD-Indoor*](https://github.com/dvlab-research/SDSD)      | 62/6        | ICCV 2021  | Real       | Indoor dataset collected from dynamic scenes under varying lighting conditions. |
 | **LLIE**   | [*SDSD-Outdoor*](https://github.com/dvlab-research/SDSD)     | 116/10      | ICCV 2021  | Real       | Outdoor dataset collected from dynamic scenes under varying lighting conditions. |
