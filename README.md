@@ -8,7 +8,7 @@
 
 <p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
 
-<p align=center><b>[ Last updated at 2025/01/01 ]</b></p>
+<p align=center><b>[ Last updated at 2025/02/11 ]</b></p>
 
 
 
@@ -39,7 +39,7 @@
                    * [Multi-modal](#2.2.4)</details><details><summary>
                      [Varied Low-level Vision Tasks In Video Through Diffusion Models](#2.3)</summary>
                      * [Video Frame Prediction and Interpolation](#2.3.1)
-                     * [Super Resolution For Video Generation](#2.3.2)
+                     * [ For Video Generation](#2.3.2)
                      * [Video Restoration](#2.3.3)</details>
 * [Related Surveys Recommended](#4.)
 * [Large-scale datasets for model pre-training](#7.)
@@ -126,6 +126,7 @@ Jan. 2025<br />
 
 |  Release   |    Method     | Title                                                        |           Pub.           |                             Link                             |
 | :-----: | :---------: | ------------------------------------------------------------ | :----------------------: | :----------------------------------------------------------: |
+| 2024/12 | **OFTSR** | **OFTSR: One-Step Flow for Image Super-Resolution with Tunable Fidelity-Realism Trade-offs**<br /><sup><sub>*Yuanzhi Zhu, Ruiqing Wang, Shilin Lu, Junnan Li, Hanshu Yan, Kai Zhang*</sup></sub> | arXiv<br />2024 | [Paper](https://arxiv.org/abs/2412.09465)/[Code](https://github.com/yuanzhi-zhu/OFTSR) |
 | 2024/09 | **SinSR** | **SinSR: Diffusion-Based Image Super-Resolution in a Single Step**<br /><sup><sub>*Yufei Wang, Wenhan Yang, Xinyuan Chen, Yaohui Wang, Lanqing Guo, Lap-Pui Chau, Ziwei Liu, Yu Qiao, Alex C. Kot, Bihan Wen*</sup></sub> | CVPR<br />2024 | [Paper](https://ieeexplore.ieee.org/document/10655533)/[Code](https://github.com/wyf0912/SinSR) |
 | 2024/09 | **CCSR** | **Improving the Stability and Efficiency of Diffusion Models for Content Consistent Super-Resolution**<br /><sup><sub>*Lingchen Sun, Rongyuan Wu, Jie Liang, Zhengqiang Zhang, Hongwei Yong, Lei Zhang*</sup></sub> | arXiv<br />2024 | [Paper](https://arxiv.org/abs/2401.00877)/[Code](https://github.com/csslc/CCSR) |
 | 2024/07 | **DiWa** | **Waving goodbye to low-res: A diffusion-wavelet approach for image super-resolution**<br /><sup><sub>*Brian B. Moser, Stanislav Frolov, Federico Raue, Sebastian Palacio, Andreas Dengel*</sup></sub> | IJCNN<br />2024 | [Paper](https://ieeexplore.ieee.org/abstract/document/10651227)/ |
