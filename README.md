@@ -8,7 +8,7 @@
 
 <p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
 
-<p align=center><b>[ Last updated at 2025/02/11 ]</b></p>
+<p align=center><b>[ Last updated at 2025/02/24 ]</b></p>
 
 
 
@@ -577,6 +577,7 @@ Due to space limitations, we provide a summary of commonly used datasets for sev
 | **LLIE**   | [*LOLv2-Syn*](https://github.com/flyywh/SGM-Low-Light)       | 900/100     | TIP 2021   | Syn        | Synthetic dark images mimic real low-light photography via histogram analysis. |
 | **LLIE**   | [*SDSD-Indoor*](https://github.com/dvlab-research/SDSD)      | 62/6        | ICCV 2021  | Real       | Indoor dataset collected from dynamic scenes under varying lighting conditions. |
 | **LLIE**   | [*SDSD-Outdoor*](https://github.com/dvlab-research/SDSD)     | 116/10      | ICCV 2021  | Real       | Outdoor dataset collected from dynamic scenes under varying lighting conditions. |
+| **Derain** | [*RaindropClarity*](https://github.com/jinyeying/RaindropClarity) | 13368/1818    | ECCV 2024  | Real        | A large-scale real-world dataset of paired/triplet images with day and night raindrops and dual-focused images. |
 | **Derain** | [*Rain100H*](https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html) | 1800/100    | CVPR 2017  | Syn        | Comprise synthetic datasets with five types of rain streaks for rain removal. |
 | **Derain** | [*RainDrop*](https://github.com/rui1996/DeRaindrop)          | 861/239     | CVPR 2018  | Syn        | Image pairs with raindrop degradation, captured using the setup of dual glasses.|
 | **Derain** | [*SPA-Data*](https://github.com/stevewongv/SPANet)           | 638492/1000 | CVPR 2019  | Real       | Design a semi-automatic method to generate clean images from real rain streaks. |
